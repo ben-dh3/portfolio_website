@@ -9,9 +9,9 @@ export default function LandingPage() {
   useEffect(() => { 
       
     const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
     camera.position.setZ(75);
-    const canvas = document.getElementById('my-canvas');
+    const canvas = document.getElementById('my-canvas') as HTMLCanvasElement;
     const renderer = new THREE.WebGLRenderer({
       canvas,
       antialias: true,  
@@ -24,8 +24,12 @@ export default function LandingPage() {
     document.body.appendChild(renderer.domElement);
  
     // Light
-    const ambientLight = new THREE.AmbientLight(0xffffff, 1); // Adjusted intensity
+    const ambientLight = new THREE.AmbientLight(0x000000, 1);
     scene.add(ambientLight);
+
+    const pointLight = new THREE.PointLight(0xffffff, 100000);
+    pointLight.position.set(-30, 10, 300);
+    scene.add(pointLight);
 
     // Particles
     const particlesGeometry = new THREE.BufferGeometry();
@@ -42,25 +46,45 @@ export default function LandingPage() {
     const particlesMesh = new THREE.Points(particlesGeometry, material);
     scene.add(particlesMesh);
 
+    // Declare textMesh in the outer scope
+    let textMesh: THREE.Mesh | undefined;
+
     // TTF Loader
     const loader = new TTFLoader();
     loader.load('/fonts/Lobster-Regular.ttf', function (json) {
       const font = new FontLoader().parse(json);
+      console.log("Font loaded"); // Debugging log
       const textGeometry = new TextGeometry('Hello three.js!', {
         font: font,
-        size: 10,
+        size: 15,
         height: 5,
-        curveSegments: 12,
+        curveSegments: 2,
         bevelEnabled: true,
         bevelThickness: 1,
         bevelSize: 0.5,
         bevelOffset: 0,
         bevelSegments: 5
       });
-      const textMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff });
-      const textMesh = new THREE.Mesh(textGeometry, textMaterial);
-      textMesh.position.set(-30, 0, 0);
+
+      // Center the geometry
+      textGeometry.center();
+
+      // Load the bump map
+      const textureLoader = new THREE.TextureLoader();
+      const bumpMap = textureLoader.load('/wall-stone-texture.jpg'); // Replace with the path to your bump map
+
+      const textMaterial = new THREE.MeshPhongMaterial({
+        color: 0x000000,
+        specular: 0x99BAA2,
+        shininess: 100,
+        bumpMap: bumpMap,
+        bumpScale: 0.5, // Adjust to increase or decrease bumpiness
+      });
+
+      textMesh = new THREE.Mesh(textGeometry, textMaterial);
+      textMesh.position.set(0, 0, 0); // Position it at the center of the scene
       scene.add(textMesh);
+      console.log("Text mesh added to the scene"); // Debugging log
     }, undefined, function (error) {
       console.error("Error loading font", error); // Error handling
     });
@@ -79,6 +103,9 @@ export default function LandingPage() {
       const elapsedTime = clock.getElapsedTime();
       particlesMesh.rotation.y = elapsedTime * -0.1;
       particlesMesh.rotation.x = elapsedTime * -0.02;
+      if (textMesh) { // Ensure textMesh is defined before trying to rotate it
+        textMesh.rotation.y += 0.005; // Spin around its Y axis
+      }
       renderer.render(scene, camera);
       window.requestAnimationFrame(animate);
     };
@@ -91,5 +118,5 @@ export default function LandingPage() {
     <div>
       <canvas id='my-canvas'></canvas> 
     </div>      
-  )
+  );
 }
