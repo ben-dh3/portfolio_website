@@ -60,7 +60,6 @@ export default function LandingPage() {
       });
 
       scene.add(model);
-      console.log("GLTF model added to the scene");
 
       // Animation
       const clock = new THREE.Clock();

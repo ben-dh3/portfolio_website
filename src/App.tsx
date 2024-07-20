@@ -1,10 +1,11 @@
 import LandingPage from "./pages/landingPage";
+import PortfolioPage from "./pages/portfolioPage";
 
 function App() {
   return (
-    <>
-      <LandingPage />
-    </>
+    <div>
+      <PortfolioPage />
+    </div>
   )
 }
 
