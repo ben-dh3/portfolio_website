@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import PortfolioButton from "../components/PortfolioButton";
 
 export default function LandingPage() {
   useEffect(() => {
@@ -88,8 +89,11 @@ export default function LandingPage() {
   }, []);
 
   return (
-    <div>
-      <canvas id="my-canvas"></canvas>
+    <div className="flex h-screen w-full flex-col items-center justify-center">
+      <div className="w-full h-full overflow-hidden">
+        <canvas id="my-canvas"></canvas>
+      </div>
+      <PortfolioButton />
     </div>
   );
 }
