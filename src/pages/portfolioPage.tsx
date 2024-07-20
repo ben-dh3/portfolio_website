@@ -5,7 +5,7 @@ export default function PortfolioPage(){
 
     return(
         <div className="bg-black text-white flex flex-col min-h-screen w-full">
-        <div className='grid grid-cols-1 sm:grid-cols-3'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'>
             <Link to="/recipeasy" className="m-8 transform hover:scale-105 transition-transform">
                 <ProjectView image="/projects/Recipeasy.png" title="Recipeasy" description="An easy-to-use recipe app"/>
             </Link>
