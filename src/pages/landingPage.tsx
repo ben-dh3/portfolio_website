@@ -18,7 +18,8 @@ export default function LandingPage() {
     renderer.setSize(window.innerWidth, window.innerHeight);
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setClearColor(new THREE.Color(0x000000), 1);
-    document.body.appendChild(renderer.domElement);
+    const div = document.getElementById('canvas-div')!;
+    div.appendChild(renderer.domElement);
 
     const directionalLight1 = new THREE.DirectionalLight(0xffffff,10)
     const directionalLight2 = new THREE.DirectionalLight(0xffffff,10)
@@ -90,7 +91,7 @@ export default function LandingPage() {
 
   return (
     <div className="flex h-screen w-full flex-col items-center justify-center">
-      <div className="w-full h-full overflow-hidden">
+      <div id="canvas-div" className="z--10 relative touch-none w-full h-full overflow-hidden">
         <canvas id="my-canvas"></canvas>
       </div>
       <PortfolioButton />
