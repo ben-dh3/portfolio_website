@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 interface ProjectDetailViewProps {
     title: string;
@@ -39,18 +41,11 @@ const ProjectDetailView: React.FC<ProjectDetailViewProps> = ({ title, about, ima
             </div>
             {selectedImage && (
                 <div className='fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50'>
-                    <div className='relative'>
-                        <button
-                            className='absolute top-2 right-2 text-black text-xl'
-                            onClick={handleCloseModal}
-                        >
-                            &times;
+                    <div>
+                        <button className='fixed top-10 right-10 text-white text-xl' onClick={handleCloseModal}>
+                            <FontAwesomeIcon icon={faTimes} />
                         </button>
-                        <img
-                            className='max-w-full max-h-full'
-                            src={selectedImage}
-                            alt={title}
-                        />
+                        <img className='max-w-full max-h-full' src={selectedImage} alt={title} />
                     </div>
                 </div>
             )}
