@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-import ProjectView from "../components/ProjectView";
 import IntroductionSection from '../components/IntroductionSection';
 import PortfolioView from '../components/PortfolioView';
 

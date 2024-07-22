@@ -33,6 +33,6 @@
     }
   }
   
-  .marquee {
+.marquee {
     animation: marquee 90s linear infinite;
-  }
+}

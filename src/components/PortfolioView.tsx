@@ -1,9 +1,7 @@
 import { Link } from 'react-router-dom';
 import ProjectView from "../components/ProjectView";
-import IntroductionSection from '../components/IntroductionSection';
 
 const PortfolioView = () => {
-
     return(
         <div className="bg-black text-white flex flex-col min-h-screen w-full">
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'>
