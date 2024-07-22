@@ -20,7 +20,9 @@ const PortfolioView = () => {
                 <Link to="/paintings" className="m-8 transform hover:scale-105 transition-transform">
                     <ProjectView image="/projects/paintings/stives.webp" title="Paintings" description="A modern website for Frogbit"/>
                 </Link>
-               
+                <Link to="/experiments" className="m-8 transform hover:scale-105 transition-transform">
+                    <ProjectView image="/projects/experiments/interaction-1.webp" title="Experiments" description="A modern website for Frogbit"/>
+                </Link>
             </div>
         </div>
     )

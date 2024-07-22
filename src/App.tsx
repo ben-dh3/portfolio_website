@@ -10,8 +10,9 @@ import PortfolioPage from "./pages/portfolioPage";
 import Recipeasy from "./pages/ProjectDetailViews/Recipeasy";
 import ArtByBen from "./pages/ProjectDetailViews/ArtByBen";
 import Frogbit from "./pages/ProjectDetailViews/Frogbit";
-import Homerbot from "./pages/ProjectDetailViews/Frogbit";
+import Homerbot from "./pages/ProjectDetailViews/Homerbot";
 import Paintings from "./pages/ProjectDetailViews/Paintings";
+import Experiments from "./pages/ProjectDetailViews/Experiments";
 
 library.add(faArrowLeft, faArrowRight, faTimes);
 
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
   {
     path: '/paintings',
     element: <Paintings />
+  },
+  {
+    path: '/experiments',
+    element: <Experiments />
   }
 ]);
 

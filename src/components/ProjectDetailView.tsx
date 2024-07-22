@@ -26,7 +26,7 @@ const ProjectDetailView: React.FC<ProjectDetailViewProps> = ({ title, about, ima
             
             <div className='flex flex-wrap'>
                 {images.map((image, index) => (
-                    <div className='mx-auto m-5 h-[400px] h-full'>
+                    <div className='mx-auto m-5 h-[400px]'>
                         <img
                         key={index}
                         className='w-full h-full object-cover cursor-zoom-in'
