@@ -1,3 +1,4 @@
+import ProjectDetailNavigation from "../../components/ProductDetailNavigation";
 import ProjectDetailView from "../../components/ProjectDetailView";
 import PortfolioPage from "../portfolioPage";
 
@@ -11,7 +12,8 @@ const RecipeasyDetail: React.FC = () => {
     ];
 
     return(
-        <div>
+        <div className="bg-black text-white">
+            <ProjectDetailNavigation leftArrow="/portfolio" rightArrow="/portfolio" />
             <ProjectDetailView title="Recipeasy" about="An easy-to-use recipe app" images={images} />
             <PortfolioPage />
         </div>

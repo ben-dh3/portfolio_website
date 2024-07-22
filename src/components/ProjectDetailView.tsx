@@ -18,7 +18,7 @@ const ProjectDetailView: React.FC<ProjectDetailViewProps> = ({ title, about, ima
     };
 
     return (
-        <div className='flex flex-col'>
+        <div className='m-5 flex flex-col'>
             <div>{title}</div>
             <div>{about}</div>
             <div className='flex flex-wrap'>
