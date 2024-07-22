@@ -8,7 +8,7 @@ interface ProjectViewProps {
 
 const ProjectView: FC<ProjectViewProps> = ({ image, title, description }) => {
     return (
-        <div className='flex flex-col'>
+        <div className='font-Arimo flex flex-col'>
             <img className='flex max-w-full' src={image} alt={title} />
             <div>{title}</div>
             <div>{description}</div>
