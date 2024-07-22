@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.font-Arimo {
+    font-family: "Arimo", sans-serif;
+}
+
+.font-Arimo-Italic {
+    font-family: "Arimo-Italic", sans-serif;
+}
+
 .cursor-zoom-in {
     cursor: zoom-in;
 }

@@ -1,32 +1,33 @@
-import instagram from '../../public/icons/instagram.svg';
-import linkedin from '../../public/icons/linkedin.svg';
-import github from '../../public/icons/github.svg';
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'; // Import the necessary icons
+
 import Marquee from './Marquee';
+import PageBreak from './PageBreak';
 
 const IntroductionSection = () => {
-
     return (
         <div className='m-5'>
-            <div className="h-[5px] bg-gradient-to-r from-pink-500 via-white to-green-500 background-animate"></div>
+            <PageBreak />
             <div className='flex flex-row justify-between'>
-                <div className=''>BEN DUFFIELD-HARDING</div>
+                <div className='text-3xl font-Arimo-Italic font-bold'>BEN DUFFIELD-HARDING</div>
                 <div className='flex'>
-                    <a href="https://www.instagram.com/__artbyben/" target='_blank' aria-label="Instagram Link">
-                        <img src={linkedin} className="h-6 w-auto" alt="linkedin" />
+                    <a href="https://github.com/your-github-profile" target='_blank' aria-label="GitHub Link">
+                        <FontAwesomeIcon icon={faGithub} className="text-2xl mx-2" /> {/* Corrected the icon reference */}
+                    </a>
+                    <a href="https://www.linkedin.com/in/your-linkedin-profile" target='_blank' aria-label="LinkedIn Link">
+                        <FontAwesomeIcon icon={faLinkedin} className="text-2xl mx-2" /> {/* Corrected the icon reference */}
                     </a>
                     <a href="https://www.instagram.com/__artbyben/" target='_blank' aria-label="Instagram Link">
-                        <img src={github} className="h-6 w-auto" alt="linkedin" />
-                    </a>
-                    <a href="https://www.instagram.com/__artbyben/" target='_blank' aria-label="Instagram Link">
-                        <img src={instagram} className="h-6 w-auto" alt="linkedin" />
+                        <FontAwesomeIcon icon={faInstagram} className="text-2xl mx-2" /> {/* Corrected the icon reference */}
                     </a>
                 </div>
             </div>
-            <div className="h-[5px] bg-gradient-to-r from-pink-500 via-white to-green-500 background-animate"></div>
+            <PageBreak />
             <Marquee message="WEB DEVELOPMENT + WEB DESIGN + ARTIST" />
-            <div className="h-[5px] bg-gradient-to-r from-pink-500 via-white to-green-500 background-animate"></div>
+            <PageBreak />
         </div>
-    )
+    );
 }
 
-export default IntroductionSection
+export default IntroductionSection;

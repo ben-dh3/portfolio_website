@@ -4,7 +4,7 @@ import PortfolioView from '../components/PortfolioView';
 export default function PortfolioPage(){
 
     return(
-        <div className="bg-black text-white flex flex-col min-h-screen w-full">
+        <div className="font-Arimo bg-black text-white flex flex-col min-h-screen w-full">
             <IntroductionSection />
             <PortfolioView />
         </div>
