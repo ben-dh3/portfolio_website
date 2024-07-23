@@ -11,7 +11,7 @@ const IntroductionSection = () => {
             <PageBreak />
             <div className='flex flex-row justify-between'>
                 <div className='text-3xl font-Arimo-Italic font-bold'>BEN DUFFIELD-HARDING</div>
-                <div className='flex'>
+                <div className='flex items-center'>
                     <a href="https://github.com/ben-dh3" target='_blank' aria-label="GitHub Link">
                         <FontAwesomeIcon icon={faGithub} className="text-2xl mx-2" />
                     </a>
