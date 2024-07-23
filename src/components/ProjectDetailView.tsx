@@ -21,9 +21,9 @@ const ProjectDetailView: React.FC<ProjectDetailViewProps> = ({ title, about, ima
 
     return (
         <div className='font-Arimo m-5'>
-            <div className='flex flex-row'>
-                <div className='text-5xl font-bold flex-1'>{title}</div>
-                <div className='about-text text-3xl flex-1'>{about}</div>    
+            <div className='flex flex-col sm:flex-row'>
+                <div className='text-5xl font-bold sm:flex-1'>{title}</div>
+                <div className='about-text text-3xl mt-10 sm:mt-0 sm:flex-1'>{about}</div>    
             </div>
             
             <div className='flex flex-wrap'>
