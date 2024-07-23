@@ -30,7 +30,7 @@ const Frogbit: React.FC = () => {
                 title="Frogbit" 
                 about="Crypto website created as an example for potential freelancing clients on Fiverr. This single page React application with colourful artwork follows the conventions of “Meme Coin” websites in the cryptocurrency ecosystem.
 
-I created the graphics in Piskel before designing the layout of each section in Figma. I wrote the smart contract for this crypto token in Solidity and deployed it to Base layer 2 on Ethereum. The smart contract is verified and available on Base Etherscan (a block explorer for Base chain)." 
+Website optimised for accessibility and SEO using Lighthouse. I created the graphics in Piskel before designing the layout of each section in Figma. I wrote the smart contract for this crypto token in Solidity and deployed it to Base layer 2 on Ethereum. The smart contract is verified and available on Base Etherscan (a block explorer for Base chain)." 
                 images={images} 
             />
             <div className='font-Arimo my-20 flex justify-center'>
