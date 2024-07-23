@@ -2,8 +2,6 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faArrowLeft, faArrowRight, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 import LandingPage from "./pages/landingPage";
 import PortfolioPage from "./pages/portfolioPage";
@@ -13,8 +11,6 @@ import Frogbit from "./pages/ProjectDetailViews/Frogbit";
 import Homerbot from "./pages/ProjectDetailViews/Homerbot";
 import Paintings from "./pages/ProjectDetailViews/Paintings";
 import Experiments from "./pages/ProjectDetailViews/Experiments";
-
-library.add(faArrowLeft, faArrowRight, faTimes);
 
 const router = createBrowserRouter([
   {

@@ -1,9 +1,12 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons'; // Import the necessary icons
 
 import PortfolioView from "../../components/PortfolioView";
 import ProjectDetailNavigation from "../../components/ProjectDetailNavigation";
 import ProjectDetailView from "../../components/ProjectDetailView";
+import PageBreak from '../../components/PageBreak';
 
 const Recipeasy: React.FC = () => {
     const images = [
@@ -29,11 +32,20 @@ const Recipeasy: React.FC = () => {
             <ProjectDetailNavigation leftArrow="/experiments" rightArrow="/artbyben" />
             <ProjectDetailView 
                 title="Recipeasy" 
-                about="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet venenatis urna cursus eget nunc scelerisque viverra mauris. Feugiat in fermentum posuere urna. Tristique nulla aliquet enim tortor. Eu feugiat pretium nibh ipsum consequat nisl vel. Eget nullam non nisi est sit amet facilisis magna etiam. In est ante in nibh mauris cursus mattis molestie. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Quis viverra nibh cras pulvinar mattis nunc sed. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Aliquam eleifend mi in nulla posuere. Risus sed vulputate odio ut enim blandit volutpat maecenas. Adipiscing elit pellentesque habitant morbi tristique senectus et netus et. Risus nullam eget felis eget nunc. Porttitor leo a diam sollicitudin tempor id. Enim praesent elementum facilisis leo vel fringilla est. Consectetur adipiscing elit ut aliquam purus sit amet luctus. Urna molestie at elementum eu facilisis sed odio morbi. In cursus turpis massa tincidunt. Egestas quis ipsum suspendisse ultrices gravida dictum fusce.
-                
-                Quis imperdiet massa tincidunt nunc pulvinar sapien. Quis imperdiet massa tincidunt nunc pulvinar sapien et. Quis ipsum suspendisse ultrices gravida. Cursus eget nunc scelerisque viverra mauris in aliquam. Ultricies mi quis hendrerit dolor magna eget est lorem ipsum. Aliquam vestibulum morbi blandit cursus. At varius vel pharetra vel. Neque egestas congue quisque egestas diam. Odio aenean sed adipiscing diam donec adipiscing. At lectus urna duis convallis convallis tellus. Feugiat scelerisque varius morbi enim nunc. Cras semper auctor neque vitae tempus quam pellentesque nec nam." 
+                about="Recipeasy was created to solve the inaccessibility issue of long form recipe blogs. This was made for our final project in an Agile engineering team at Makers.
+
+The core functionality is a web scraper that takes a URL to a recipe and scrapes the recipe data from the web page, then a recipe form is populated in the app which can be modified, saved, and stored. Create an account, login, and favourite your best finds. With the create new recipe feature - fill in a blank recipe form and save it to your collection.
+
+Our team used Figma to design and plan the application, and Trello to organise our Agile workflow. We used test-driven development with React testing library and Vitest. The app is built with the MERN stack and Axios, Cheerio and Puppeteer for the web scraper on the backend. We used Tailwind to style the app." 
                 images={images} 
             />
+            <div className='font-Arimo my-20 flex justify-center'>
+                Source Links:
+                <a href="https://github.com/kawrou/RecipEasy-recipe-manager" target='_blank' aria-label="GitHub Link">
+                    <FontAwesomeIcon icon={faGithub} className="text-2xl mx-2" />
+                </a>
+            </div>
+            <PageBreak />
             <PortfolioView />
         </div>
     )

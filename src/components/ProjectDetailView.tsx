@@ -20,7 +20,7 @@ const ProjectDetailView: React.FC<ProjectDetailViewProps> = ({ title, about, ima
     };
 
     return (
-        <div className='mx-auto font-Arimo m-5'>
+        <div className='font-Arimo m-5'>
             <div className='flex flex-row'>
                 <div className='text-5xl font-bold flex-1'>{title}</div>
                 <div className='about-text text-3xl flex-1'>{about}</div>    

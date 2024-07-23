@@ -1,9 +1,13 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons'; // Import the necessary icons
 
 import PortfolioView from "../../components/PortfolioView";
 import ProjectDetailNavigation from "../../components/ProjectDetailNavigation";
 import ProjectDetailView from "../../components/ProjectDetailView";
+import PageBreak from '../../components/PageBreak';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 const ArtByBen: React.FC = () => {
     const images = [
@@ -26,11 +30,23 @@ const ArtByBen: React.FC = () => {
             <ProjectDetailNavigation leftArrow="/recipeasy" rightArrow="/frogbit" />
             <ProjectDetailView 
                 title="Art By Ben" 
-                about="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet venenatis urna cursus eget nunc scelerisque viverra mauris. Feugiat in fermentum posuere urna. Tristique nulla aliquet enim tortor. Eu feugiat pretium nibh ipsum consequat nisl vel. Eget nullam non nisi est sit amet facilisis magna etiam. In est ante in nibh mauris cursus mattis molestie. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Quis viverra nibh cras pulvinar mattis nunc sed. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Aliquam eleifend mi in nulla posuere. Risus sed vulputate odio ut enim blandit volutpat maecenas. Adipiscing elit pellentesque habitant morbi tristique senectus et netus et. Risus nullam eget felis eget nunc. Porttitor leo a diam sollicitudin tempor id. Enim praesent elementum facilisis leo vel fringilla est. Consectetur adipiscing elit ut aliquam purus sit amet luctus. Urna molestie at elementum eu facilisis sed odio morbi. In cursus turpis massa tincidunt. Egestas quis ipsum suspendisse ultrices gravida dictum fusce.
-                
-                Quis imperdiet massa tincidunt nunc pulvinar sapien. Quis imperdiet massa tincidunt nunc pulvinar sapien et. Quis ipsum suspendisse ultrices gravida. Cursus eget nunc scelerisque viverra mauris in aliquam. Ultricies mi quis hendrerit dolor magna eget est lorem ipsum. Aliquam vestibulum morbi blandit cursus. At varius vel pharetra vel. Neque egestas congue quisque egestas diam. Odio aenean sed adipiscing diam donec adipiscing. At lectus urna duis convallis convallis tellus. Feugiat scelerisque varius morbi enim nunc. Cras semper auctor neque vitae tempus quam pellentesque nec nam." 
+                about="This store was created independently for the purpose of selling my creations.
+
+Inspiration for the motion graphics taken from Organs’ creative agency website. I designed the graphics in Figma, before creating the animation in Adobe After Effects. The lettering shape is made up of circles that expand and shrink in a flowing motion, a plastic texture has been applied that accentuates the movement.
+
+The web app is created with Typescript/React, and React testing library for CI/CD integration with Github Actions. Deployed using Netlify, I have integrated Netlify forms to collect customer queries. I have used the Shopify Buy Button to enable sales through my site, and a carousel feature to easily view my work. The website is fully responsive and styled with Tailwind, taking modern UX design trends into account." 
                 images={images} 
             />
+            <div className='font-Arimo my-20 flex justify-center'>
+                Source Links:
+                <a href="https://github.com/ben-dh3/artist_website" target='_blank' aria-label="GitHub Link">
+                    <FontAwesomeIcon icon={faGithub} className="text-2xl mx-2" />
+                </a>
+                <a href="https://artbyben.netlify.app/" target='_blank' aria-label="Website Link">
+                    <FontAwesomeIcon icon={faGlobe} className="text-2xl mx-2" />
+                </a>
+            </div>
+            <PageBreak />
             <PortfolioView />
         </div>
     )

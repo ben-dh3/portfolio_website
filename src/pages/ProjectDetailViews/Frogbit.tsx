@@ -4,6 +4,10 @@ import { useLocation } from 'react-router-dom';
 import PortfolioView from "../../components/PortfolioView";
 import ProjectDetailNavigation from "../../components/ProjectDetailNavigation";
 import ProjectDetailView from "../../components/ProjectDetailView";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faMedium } from '@fortawesome/free-brands-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import PageBreak from '../../components/PageBreak';
 
 const Frogbit: React.FC = () => {
     const images = [
@@ -24,11 +28,24 @@ const Frogbit: React.FC = () => {
             <ProjectDetailNavigation leftArrow="/artbyben" rightArrow="/homerbot" />
             <ProjectDetailView 
                 title="Frogbit" 
-                about="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet venenatis urna cursus eget nunc scelerisque viverra mauris. Feugiat in fermentum posuere urna. Tristique nulla aliquet enim tortor. Eu feugiat pretium nibh ipsum consequat nisl vel. Eget nullam non nisi est sit amet facilisis magna etiam. In est ante in nibh mauris cursus mattis molestie. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Quis viverra nibh cras pulvinar mattis nunc sed. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Aliquam eleifend mi in nulla posuere. Risus sed vulputate odio ut enim blandit volutpat maecenas. Adipiscing elit pellentesque habitant morbi tristique senectus et netus et. Risus nullam eget felis eget nunc. Porttitor leo a diam sollicitudin tempor id. Enim praesent elementum facilisis leo vel fringilla est. Consectetur adipiscing elit ut aliquam purus sit amet luctus. Urna molestie at elementum eu facilisis sed odio morbi. In cursus turpis massa tincidunt. Egestas quis ipsum suspendisse ultrices gravida dictum fusce.
-                
-                Quis imperdiet massa tincidunt nunc pulvinar sapien. Quis imperdiet massa tincidunt nunc pulvinar sapien et. Quis ipsum suspendisse ultrices gravida. Cursus eget nunc scelerisque viverra mauris in aliquam. Ultricies mi quis hendrerit dolor magna eget est lorem ipsum. Aliquam vestibulum morbi blandit cursus. At varius vel pharetra vel. Neque egestas congue quisque egestas diam. Odio aenean sed adipiscing diam donec adipiscing. At lectus urna duis convallis convallis tellus. Feugiat scelerisque varius morbi enim nunc. Cras semper auctor neque vitae tempus quam pellentesque nec nam." 
+                about="Crypto website created as an example for potential freelancing clients on Fiverr. This single page React application with colourful artwork follows the conventions of “Meme Coin” websites in the cryptocurrency ecosystem.
+
+I created the graphics in Piskel before designing the layout of each section in Figma. I wrote the smart contract for this crypto token in Solidity and deployed it to Base layer 2 on Ethereum. The smart contract is verified and available on Base Etherscan (a block explorer for Base chain)." 
                 images={images} 
             />
+            <div className='font-Arimo my-20 flex justify-center'>
+                Source Links:
+                <a href="https://github.com/ben-dh3/frogbit_website" target='_blank' aria-label="GitHub Link">
+                    <FontAwesomeIcon icon={faGithub} className="text-2xl mx-2" />
+                </a>
+                <a href="https://frogbit.netlify.app/" target='_blank' aria-label="Website Link">
+                    <FontAwesomeIcon icon={faGlobe} className="text-2xl mx-2" />
+                </a>
+                <a href="https://medium.com/coinmonks/verify-a-smart-contract-on-etherscan-9eb5eb4f55cd" target='_blank' aria-label="Medium Link">
+                    <FontAwesomeIcon icon={faMedium} className="text-2xl mx-2" />
+                </a>
+            </div>
+            <PageBreak />
             <PortfolioView />
         </div>
     )
