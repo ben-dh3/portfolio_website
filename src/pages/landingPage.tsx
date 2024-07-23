@@ -52,7 +52,7 @@ export default function LandingPage() {
 
       // Apply MeshPhongMaterial
       model.traverse((node) => {
-        if (node.isMesh) {
+        if (node instanceof THREE.Mesh) {
           node.material = new THREE.MeshPhongMaterial({
             color: 0x000000,
             specular: 0xDBFFDC,
