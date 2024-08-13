@@ -7,7 +7,6 @@ import PortfolioView from "../../components/PortfolioView";
 import ProjectDetailNavigation from "../../components/ProjectDetailNavigation";
 import ProjectDetailView from "../../components/ProjectDetailView";
 import PageBreak from '../../components/PageBreak';
-import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 const PokedexMobile: React.FC = () => {
     const images = [
@@ -29,7 +28,6 @@ const PokedexMobile: React.FC = () => {
         '/projects/pokedexmobile/pokemon-types/poison.webp',
         '/projects/pokedexmobile/pokemon-types/flying.webp',
         '/projects/pokedexmobile/pokemon-types/fairy.webp',
-
     ];
 
     const { pathname } = useLocation();
