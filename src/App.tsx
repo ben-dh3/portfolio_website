@@ -5,6 +5,7 @@ import {
 
 import LandingPage from "./pages/landingPage";
 import PortfolioPage from "./pages/portfolioPage";
+import PokedexMobile from "./pages/ProjectDetailViews/PokedexMobile";
 import Recipeasy from "./pages/ProjectDetailViews/Recipeasy";
 import ArtByBen from "./pages/ProjectDetailViews/ArtByBen";
 import Frogbit from "./pages/ProjectDetailViews/Frogbit";
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <LandingPage />
+  },
+  {
+    path: '/pokedex',
+    element: <PokedexMobile />
   },
   {
     path: '/portfolio',

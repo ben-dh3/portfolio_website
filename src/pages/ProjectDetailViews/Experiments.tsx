@@ -28,7 +28,7 @@ const Experiments: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/paintings" rightArrow="/recipeasy" />
+            <ProjectDetailNavigation leftArrow="/paintings" rightArrow="/pokedex" />
             <ProjectDetailView 
                 title="Experiments" 
                 about="" 
