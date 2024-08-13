@@ -41,11 +41,11 @@ const ProjectDetailView: React.FC<ProjectDetailViewProps> = ({ title, about, ima
             </div>
             {selectedImage && (
                 <div className='fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50'>
-                    <div>
+                    <div className='max-w-screen max-h-screen overflow-auto'>
                         <button className='fixed top-10 right-10 text-white text-xl' onClick={handleCloseModal}>
                             <FontAwesomeIcon icon={faTimes} />
                         </button>
-                        <img className='max-w-full max-h-full' src={selectedImage} alt={title} />
+                        <img className='w-auto h-full' src={selectedImage} alt={title} />
                     </div>
                 </div>
             )}
