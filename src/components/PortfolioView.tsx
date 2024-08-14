@@ -21,7 +21,7 @@ const PortfolioView = () => {
                 </Link>
                 
                 <Link to="/paintings" className="m-8">
-                    <ProjectView image="/projects/paintings/stives.webp" title="Paintings" description="watercolour and oil painting"/>
+                    <ProjectView image="/projects/paintings/St Ives Watercolour.webp" title="Paintings" description="watercolour and oil painting"/>
                 </Link>
             </div>
             <div className='flex-1 grid grid-cols-1'>
@@ -32,7 +32,7 @@ const PortfolioView = () => {
                     <ProjectView image="/projects/homerbot/Landing Page.webp" title="Homerbot AI Chatbot" description="web design, pixel art"/>
                 </Link>
                 <Link to="/experiments" className="m-8">
-                    <ProjectView image="/projects/experiments/interaction-1.webp" title="Experiments" description="watercolour and oil painting"/>
+                    <ProjectView image="/projects/experiments/Oil and Water Colour Interaction 1.webp" title="Experiments" description="watercolour and oil painting"/>
                 </Link>
             </div>
         </div>
