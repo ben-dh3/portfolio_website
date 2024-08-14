@@ -26,7 +26,7 @@ const ProjectDetailView: React.FC<ProjectDetailViewProps> = ({ title, about, ima
                 <div className='about-text text-3xl mt-10 sm:mt-0 sm:flex-1'>{about}</div>    
             </div>
             
-            <div className='flex flex-wrap'>
+            <div className='mt-10 flex flex-wrap'>
                 {images.map((image, index) => (
                     <div className='mx-auto m-5 h-[400px]'>
                         <img
@@ -36,6 +36,9 @@ const ProjectDetailView: React.FC<ProjectDetailViewProps> = ({ title, about, ima
                         alt={title}
                         onClick={() => handleImageClick(image)}
                         />
+                        <h2 className='text-center mt-2 text-lg font-semibold'>
+                            {image.split('/').pop()?.replace('.webp', '')}
+                        </h2>
                     </div>
                 ))}
             </div>
