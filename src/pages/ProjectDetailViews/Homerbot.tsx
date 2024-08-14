@@ -11,9 +11,9 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 const Homerbot: React.FC = () => {
     const images = [
-        '/projects/homerbot/landing-page.webp',
-        '/projects/homerbot/mobile-view.webp',
-        '/projects/homerbot/homer-gif.webp',
+        '/projects/homerbot/Landing Page.webp',
+        '/projects/homerbot/Mobile View.webp',
+        '/projects/homerbot/Pixel Animation Created in Piskel.webp',
     ];
 
     const { pathname } = useLocation();
@@ -27,7 +27,7 @@ const Homerbot: React.FC = () => {
             <ProjectDetailNavigation leftArrow="/frogbit" rightArrow="/paintings" />
             <ProjectDetailView 
                 title="Homerbot" 
-                about="This is an AI chat bot using OpenAI's API; the AI model has been fine tuned with dialogue to respond like Homer Simpson. 
+                about="This is an AI chat bot using OpenAI's API; the AI model has been fine tuned with dialogue to respond like Homer Simpson. The App is deployed and available via the globe icon below. 
 
 The UI has been designed in Figma with references to Simpsons episodes, and graphics made in Piskel. The application is built with Next.js and deployed with Vercel." 
                 images={images} 

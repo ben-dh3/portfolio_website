@@ -10,14 +10,14 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Paintings: React.FC = () => {
     const images = [
-        '/projects/paintings/beach_1.webp',
-        '/projects/paintings/beach_2.webp',
-        '/projects/paintings/beach_3.webp',
-        '/projects/paintings/beach_4.webp',
-        '/projects/paintings/beach_5.webp',
-        '/projects/paintings/mia.webp',
-        '/projects/paintings/stives.webp',
-        '/projects/paintings/watercolour_sketch.webp',
+        '/projects/paintings/Beach Watercolour 1.webp',
+        '/projects/paintings/Beach Watercolour 2.webp',
+        '/projects/paintings/Beach Watercolour 3.webp',
+        '/projects/paintings/Beach Watercolour 4.webp',
+        '/projects/paintings/Beach Watercolour 5.webp',
+        '/projects/paintings/Mia Oil Painting on Canvas.webp',
+        '/projects/paintings/St Ives Watercolour.webp',
+        '/projects/paintings/Watercolour Sketch.webp',
     ];
 
     const { pathname } = useLocation();

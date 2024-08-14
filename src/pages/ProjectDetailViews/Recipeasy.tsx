@@ -10,15 +10,15 @@ import PageBreak from '../../components/PageBreak';
 
 const Recipeasy: React.FC = () => {
     const images = [
-        '/projects/recipeasy/landing-page.webp',
-        '/projects/recipeasy/create-account.webp',
-        '/projects/recipeasy/login.webp',
-        '/projects/recipeasy/edit-recipe-one.webp',
-        '/projects/recipeasy/edit-recipe-two.webp',
-        '/projects/recipeasy/favourite-button.webp',
-        '/projects/recipeasy/my-recipes.webp',
-        '/projects/recipeasy/new-recipe.webp',
-        '/projects/recipeasy/logo.webp',
+        '/projects/recipeasy/Landing Page.webp',
+        '/projects/recipeasy/Create Account.webp',
+        '/projects/recipeasy/Login.webp',
+        '/projects/recipeasy/Edit Recipe Top.webp',
+        '/projects/recipeasy/Edit Recipe Bottom.webp',
+        '/projects/recipeasy/Favourite Button.webp',
+        '/projects/recipeasy/My Recipes Page.webp',
+        '/projects/recipeasy/Create Recipe From Scratch.webp',
+        '/projects/recipeasy/Logo.webp',
     ];
 
     const { pathname } = useLocation();

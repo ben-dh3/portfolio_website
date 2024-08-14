@@ -11,12 +11,11 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 const ArtByBen: React.FC = () => {
     const images = [
-        '/projects/artbyben/hero.webp',
-        '/projects/artbyben/ben-graphics.webp',
-        '/projects/artbyben/shop.webp',
-        '/projects/artbyben/mobile-nav.webp',
-        '/projects/artbyben/mobile-view.webp',
-        '/projects/artbyben/figma-designs.webp'
+        '/projects/artbyben/Hero Page.webp',
+        '/projects/artbyben/Motion Graphics Created in AE.webp',
+        '/projects/artbyben/Shopify Shop.webp',
+        '/projects/artbyben/Mobile Navigation View.webp',
+        '/projects/artbyben/Mobile View.webp'
     ];
 
     const { pathname } = useLocation();
@@ -30,7 +29,7 @@ const ArtByBen: React.FC = () => {
             <ProjectDetailNavigation leftArrow="/recipeasy" rightArrow="/frogbit" />
             <ProjectDetailView 
                 title="Art By Ben" 
-                about="This store was created independently for the purpose of selling my creations.
+                about="This store was created independently for the purpose of selling my creations. The App is deployed and available via the globe icon below.
 
 Inspiration for the motion graphics taken from Organs’ creative agency website. I designed the graphics in Figma, before creating the animation in Adobe After Effects. The lettering shape is made up of circles that expand and shrink in a flowing motion, a plastic texture has been applied that accentuates the movement.
 

@@ -10,14 +10,14 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Experiments: React.FC = () => {
     const images = [
-        '/projects/experiments/interaction-1.webp',
-        '/projects/experiments/interaction-2.webp',
-        '/projects/experiments/interaction-3.webp',
-        '/projects/experiments/interaction-4.webp',
-        '/projects/experiments/interaction-5.webp',
-        '/projects/experiments/interaction-6.webp',
-        '/projects/experiments/interaction-7.webp',
-        '/projects/experiments/interaction-8.webp',
+        '/projects/experiments/Oil and Water Colour Interaction 1.webp',
+        '/projects/experiments/Oil and Water Colour Interaction 2.webp',
+        '/projects/experiments/Oil and Water Colour Interaction 3.webp',
+        '/projects/experiments/Oil and Water Colour Interaction 4.webp',
+        '/projects/experiments/Oil and Water Colour Interaction 5.webp',
+        '/projects/experiments/Oil and Water Colour Interaction 6.webp',
+        '/projects/experiments/Oil and Water Colour Interaction 7.webp',
+        '/projects/experiments/Oil and Water Colour Interaction 8.webp',
     ];
 
     const { pathname } = useLocation();
