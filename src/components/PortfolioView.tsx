@@ -25,8 +25,8 @@ const PortfolioView = () => {
                 </Link>
             </div>
             <div className='flex-1 grid grid-cols-1'>
-                <Link to="/artbyben" className="m-8">
-                    <ProjectView image="/projects/artbyben/Motion Graphics Created in AE.webp" title="Shopify ECommerce Art Store" description="software development, web design, motion graphics"/>
+                <Link to="/bdhartanddesign" className="m-8">
+                    <ProjectView image="/projects/bdhartanddesign/Hero Page.webp" title="BDH Art & Design Shopify ECommerce Store" description="Adobe Creative Suite, typography, colour theory, layout design, GLSL shaders, software development, web design, motion graphics"/>
                 </Link>
                 <Link to="/homerbot" className="m-8">
                     <ProjectView image="/projects/homerbot/Landing Page.webp" title="Homerbot AI Chatbot" description="web design, pixel art"/>

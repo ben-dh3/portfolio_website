@@ -7,7 +7,7 @@ import LandingPage from "./pages/landingPage";
 import PortfolioPage from "./pages/portfolioPage";
 import PokedexMobile from "./pages/ProjectDetailViews/PokedexMobile";
 import Recipeasy from "./pages/ProjectDetailViews/Recipeasy";
-import ArtByBen from "./pages/ProjectDetailViews/ArtByBen";
+import BDHArtAndDesign from "./pages/ProjectDetailViews/BDHArtAndDesign";
 import Frogbit from "./pages/ProjectDetailViews/Frogbit";
 import Homerbot from "./pages/ProjectDetailViews/Homerbot";
 import Paintings from "./pages/ProjectDetailViews/Paintings";
@@ -31,8 +31,8 @@ const router = createBrowserRouter([
     element: <Recipeasy />
   },
   {
-    path: '/artbyben',
-    element: <ArtByBen />
+    path: '/bdhartanddesign',
+    element: <BDHArtAndDesign />
   },
   {
     path: '/frogbit',
