@@ -17,13 +17,13 @@ const IntroductionSection = () => {
                     <a href="https://www.linkedin.com/in/benjamin-duffield-harding-051011254/" target='_blank' aria-label="LinkedIn Link">
                         <FontAwesomeIcon icon={faLinkedin} className="text-2xl mx-2" />
                     </a>
-                    <a href="https://www.instagram.com/__artbyben/" target='_blank' aria-label="Instagram Link">
+                    <a href="https://www.instagram.com/ben.d_h/" target='_blank' aria-label="Instagram Link">
                         <FontAwesomeIcon icon={faInstagram} className="text-2xl mx-2" />
                     </a>
                 </div>
             </div>
             <PageBreak />
-            <Marquee message="WEB DEVELOPMENT + WEB DESIGN + ART +" />
+            <Marquee message="WEB DESIGN | GRAPHIC DESIGN | SOFTWARE DEVELOPMENT | " />
             <PageBreak />
         </div>
     );

@@ -12,6 +12,7 @@ import Frogbit from "./pages/ProjectDetailViews/Frogbit";
 import Homerbot from "./pages/ProjectDetailViews/Homerbot";
 import Paintings from "./pages/ProjectDetailViews/Paintings";
 import Experiments from "./pages/ProjectDetailViews/Experiments";
+import SelfPortrait from "./pages/ProjectDetailViews/SelfPortrait";
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
   {
     path: '/experiments',
     element: <Experiments />
+  },
+  {
+    path: '/selfportrait',
+    element: <SelfPortrait />
   }
 ]);
 

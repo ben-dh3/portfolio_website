@@ -8,16 +8,9 @@ import PageBreak from '../../components/PageBreak';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-const Experiments: React.FC = () => {
+const SelfPortrait: React.FC = () => {
     const images = [
-        '/projects/experiments/Oil and Water Colour Interaction 1.webp',
-        '/projects/experiments/Oil and Water Colour Interaction 2.webp',
-        '/projects/experiments/Oil and Water Colour Interaction 3.webp',
-        '/projects/experiments/Oil and Water Colour Interaction 4.webp',
-        '/projects/experiments/Oil and Water Colour Interaction 5.webp',
-        '/projects/experiments/Oil and Water Colour Interaction 6.webp',
-        '/projects/experiments/Oil and Water Colour Interaction 7.webp',
-        '/projects/experiments/Oil and Water Colour Interaction 8.webp',
+        '/projects/selfportrait/Photoshop Self Portrait.webp',
     ];
 
     const { pathname } = useLocation();
@@ -30,8 +23,8 @@ const Experiments: React.FC = () => {
         <div className="bg-black text-white">
             <ProjectDetailNavigation leftArrow="/paintings" rightArrow="/pokedex" />
             <ProjectDetailView 
-                title="Experiments" 
-                about="" 
+                title="Photoshop Self Portrait" 
+                about="This artwork was created to showcase some impressive effects made with Photoshop in an expressive piece." 
                 images={images} 
             />
             <div className='font-Arimo my-20 flex justify-center'>
@@ -46,4 +39,4 @@ const Experiments: React.FC = () => {
     )
 }
 
-export default Experiments;
+export default SelfPortrait;

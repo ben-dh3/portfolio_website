@@ -36,7 +36,7 @@ const Paintings: React.FC = () => {
             />
             <div className='font-Arimo my-20 flex justify-center'>
                 Source Links:
-                <a href="https://www.instagram.com/__artbyben/" target='_blank' aria-label="Instagram Link">
+                <a href="https://www.instagram.com/ben.d_h/" target='_blank' aria-label="Instagram Link">
                     <FontAwesomeIcon icon={faInstagram} className="text-2xl mx-2" />
                 </a>
             </div>
