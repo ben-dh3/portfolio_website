@@ -13,6 +13,7 @@ import Homerbot from "./pages/ProjectDetailViews/Homerbot";
 import Paintings from "./pages/ProjectDetailViews/Paintings";
 import Experiments from "./pages/ProjectDetailViews/Experiments";
 import SelfPortrait from "./pages/ProjectDetailViews/SelfPortrait";
+import Shaders from "./pages/ProjectDetailViews/Shaders";
 
 const router = createBrowserRouter([
   {
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
   {
     path: '/selfportrait',
     element: <SelfPortrait />
+  },
+  {
+    path: '/shaders',
+    element: <Shaders />
   }
 ]);
 

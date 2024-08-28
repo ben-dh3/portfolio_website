@@ -25,7 +25,7 @@ const Frogbit: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/bdhartanddesign" rightArrow="/homerbot" />
+            <ProjectDetailNavigation leftArrow="/shaders" rightArrow="/homerbot" />
             <ProjectDetailView 
                 title="Frogbit" 
                 about="Crypto website created as an example for potential freelancing clients on Fiverr. This single page React application with colourful artwork follows the conventions of “Meme Coin” websites in the cryptocurrency ecosystem. The App is deployed and available via the globe icon below.

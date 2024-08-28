@@ -7,10 +7,11 @@ import ProjectDetailView from "../../components/ProjectDetailView";
 import PageBreak from '../../components/PageBreak';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
-const SelfPortrait: React.FC = () => {
+const Shaders: React.FC = () => {
     const images = [
-        '/projects/selfportrait/Photoshop Self Portrait.webp',
+        '/projects/shaders/Fractal Brownian Motion.webp',
     ];
 
     const { pathname } = useLocation();
@@ -21,14 +22,17 @@ const SelfPortrait: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/bdhartanddesign" rightArrow="/shaders" />
+            <ProjectDetailNavigation leftArrow="/selfportrait" rightArrow="/frogbit" />
             <ProjectDetailView 
-                title="Photoshop Self Portrait" 
-                about="This artwork was created to showcase some impressive effects made with Photoshop in an expressive piece." 
+                title="GLSL Shaders" 
+                about="Created Northern Lights effect using Fractal Brownian Motion. An interactive version is available along with source code via the globe icon below." 
                 images={images} 
             />
             <div className='font-Arimo my-20 flex justify-center'>
                 Source Links:
+                <a href="https://www.shadertoy.com/view/MfjBDz" target='_blank' aria-label="Website Link">
+                    <FontAwesomeIcon icon={faGlobe} className="text-2xl mx-2" />
+                </a>
                 <a href="https://www.instagram.com/ben.d_h/" target='_blank' aria-label="Instagram Link">
                     <FontAwesomeIcon icon={faInstagram} className="text-2xl mx-2" />
                 </a>
@@ -39,4 +43,4 @@ const SelfPortrait: React.FC = () => {
     )
 }
 
-export default SelfPortrait;
+export default Shaders;
