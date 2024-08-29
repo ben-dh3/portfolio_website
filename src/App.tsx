@@ -12,8 +12,8 @@ import Frogbit from "./pages/ProjectDetailViews/Frogbit";
 import Homerbot from "./pages/ProjectDetailViews/Homerbot";
 import Paintings from "./pages/ProjectDetailViews/Paintings";
 import Experiments from "./pages/ProjectDetailViews/Experiments";
-import SelfPortrait from "./pages/ProjectDetailViews/SelfPortrait";
 import Shaders from "./pages/ProjectDetailViews/Shaders";
+import PhotoshopProjects from "./pages/ProjectDetailViews/PhotoshopProjects";
 
 const router = createBrowserRouter([
   {
@@ -53,8 +53,8 @@ const router = createBrowserRouter([
     element: <Experiments />
   },
   {
-    path: '/selfportrait',
-    element: <SelfPortrait />
+    path: '/photoshopprojects',
+    element: <PhotoshopProjects />
   },
   {
     path: '/shaders',

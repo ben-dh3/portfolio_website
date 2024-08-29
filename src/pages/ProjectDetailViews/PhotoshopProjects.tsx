@@ -8,9 +8,10 @@ import PageBreak from '../../components/PageBreak';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-const SelfPortrait: React.FC = () => {
+const PhotoshopProjects: React.FC = () => {
     const images = [
-        '/projects/selfportrait/Photoshop Self Portrait.webp',
+        '/projects/photoshopprojects/Self Portrait 1.webp',
+        '/projects/photoshopprojects/Self Portrait 2.webp'
     ];
 
     const { pathname } = useLocation();
@@ -23,8 +24,8 @@ const SelfPortrait: React.FC = () => {
         <div className="bg-black text-white">
             <ProjectDetailNavigation leftArrow="/bdhartanddesign" rightArrow="/shaders" />
             <ProjectDetailView 
-                title="Photoshop Self Portrait" 
-                about="This artwork was created to showcase some impressive effects made with Photoshop in an expressive piece." 
+                title="Photoshop Graphics Projects" 
+                about="This artwork was created to showcase some impressive effects made with Photoshop." 
                 images={images} 
             />
             <div className='font-Arimo my-20 flex justify-center'>
@@ -39,4 +40,4 @@ const SelfPortrait: React.FC = () => {
     )
 }
 
-export default SelfPortrait;
+export default PhotoshopProjects;
