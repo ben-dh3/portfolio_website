@@ -15,6 +15,7 @@ const Chitter: React.FC = () => {
         '/projects/chitter/Landing Page Graphics.webp',
         '/projects/chitter/Create an Account.webp',
         '/projects/chitter/Feed Page.webp',
+        '/projects/chitter/Logo.webp',
     ];
 
     const { pathname } = useLocation();
@@ -25,7 +26,7 @@ const Chitter: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/recipeasy" rightArrow="/photoshopprojects" />
+            <ProjectDetailNavigation leftArrow="/experiments" rightArrow="/recipeasy" />
             <ProjectDetailView 
                 title="Chitter" 
                 about="Social media website built with Flask and PostgreSQL, with graphics made in Three.js and GLSL. Deployed on a virtual machine with Digital Ocean. Check out the website via the globe icon below.
