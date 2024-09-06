@@ -5,12 +5,12 @@ const PortfolioView = () => {
     return(
         <div className="bg-black text-white flex flex-col md:flex-row justify-evenly min-h-screen w-full">
             <div className='flex-1 grid grid-cols-1'>
+                <Link to="/chitter" className="m-8">
+                    <ProjectView image="/projects/chitter/ThreeJS and GLSL Graphics.webp" title="Chitter" description="ThreeJS, GLSL, Flask, PostgreSQL, Tailwind, Devops, web design, software development"/>
+                </Link>
                 <Link to="/pokedex" className="m-8">
                     <ProjectView image="/projects/pokedexmobile/Detail Screen.webp" title="Pokedex React Native Android App" description="Adobe Creative Suite, typography, colour theory, layout design, software development, web design"/>
                 </Link>
-                
-                
-                
             </div>
             <div className='flex-1 grid grid-cols-1'>
                 <Link to="/recipeasy" className="m-8">

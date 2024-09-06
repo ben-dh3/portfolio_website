@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAndroid, faGithub } from '@fortawesome/free-brands-svg-icons'; // Import the necessary icons
+import { faAndroid, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import PortfolioView from "../../components/PortfolioView";
 import ProjectDetailNavigation from "../../components/ProjectDetailNavigation";
