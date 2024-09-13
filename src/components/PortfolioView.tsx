@@ -41,16 +41,19 @@ const PortfolioView = () => {
         <Link to="/pokedex" className="m-8 project">
           <ProjectView image="/projects/pokedexmobile/Detail Screen.webp" title="Pokedex React Native Android App" description="Adobe Creative Suite, typography, colour theory, layout design, software development, web design" />
         </Link>
+        <Link to="/frogbit" className="m-8 project">
+          <ProjectView image="/projects/frogbit/Hero Section.webp" title="Cryptocurrency Frontend and Token" description="cryptocurrency development, software development, web design, pixel art" />
+        </Link>
       </div>
       <div className='flex-1 grid grid-cols-1'>
         <Link to="/recipeasy" className="m-8 project">
           <ProjectView image="/projects/recipeasy/Landing Page.webp" title="Recipeasy Recipe Webscraper App" description="software development, web design" />
         </Link>
+        <Link to="/kafedesignbrief" className="m-8 project">
+          <ProjectView image="/projects/kafedesignbrief/Brand Identity Animation.webp" title="K-AFE Design Brief" description="Adobe Creative Suite" />
+        </Link>
         <Link to="/photoshopprojects" className="m-8 project">
           <ProjectView image="/projects/photoshopprojects/Self Portrait 1.webp" title="Photoshop Graphics Projects" description="Adobe Creative Suite" />
-        </Link>
-        <Link to="/frogbit" className="m-8 project">
-          <ProjectView image="/projects/frogbit/Hero Section.webp" title="Cryptocurrency Frontend and Token" description="cryptocurrency development, software development, web design, pixel art" />
         </Link>
         <Link to="/paintings" className="m-8 project">
           <ProjectView image="/projects/paintings/St Ives Watercolour.webp" title="Paintings" description="watercolour and oil painting" />

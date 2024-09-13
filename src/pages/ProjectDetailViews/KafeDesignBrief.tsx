@@ -8,10 +8,12 @@ import PageBreak from '../../components/PageBreak';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-const PhotoshopProjects: React.FC = () => {
+const KafeDesignBrief: React.FC = () => {
     const images = [
-        '/projects/photoshopprojects/Self Portrait 1.webp',
-        '/projects/photoshopprojects/Self Portrait 2.webp'
+        '/projects/kafedesignbrief/Brand Identity Animation.webp',
+        '/projects/kafedesignbrief/Logo Design Animation.webp',
+        '/projects/kafedesignbrief/Coffee Cup Mockup.webp',
+        '/projects/kafedesignbrief/Sign Mockup.webp',
     ];
 
     const { pathname } = useLocation();
@@ -22,10 +24,12 @@ const PhotoshopProjects: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/frogbit" rightArrow="/homerbot" />
+            <ProjectDetailNavigation leftArrow="/pokedex" rightArrow="/shaders" />
             <ProjectDetailView 
-                title="Photoshop Graphics Projects" 
-                about="This artwork was created to showcase some impressive effects made with Photoshop." 
+                title="K-AFE Design Project" 
+                about="Brand identity design for K-AFE from Instagram account @designerbriefs🫰🧋☕Logo created in Adobe Illustrator and animated in After Effects.
+                
+                K-afe is a Korean cafe that offers a wide range of traditional and modern Korean beverages and snacks in a modern and inviting atmosphere making it a perfect spot for coffee lovers and foodies." 
                 images={images} 
             />
             <div className='font-Arimo my-20 flex justify-center'>
@@ -40,4 +44,4 @@ const PhotoshopProjects: React.FC = () => {
     )
 }
 
-export default PhotoshopProjects;
+export default KafeDesignBrief;
