@@ -10,8 +10,6 @@ import Recipeasy from "./pages/ProjectDetailViews/Recipeasy";
 import BDHArtAndDesign from "./pages/ProjectDetailViews/BDHArtAndDesign";
 import Frogbit from "./pages/ProjectDetailViews/Frogbit";
 import Homerbot from "./pages/ProjectDetailViews/Homerbot";
-import Paintings from "./pages/ProjectDetailViews/Paintings";
-import Experiments from "./pages/ProjectDetailViews/Experiments";
 import Shaders from "./pages/ProjectDetailViews/Shaders";
 import PhotoshopProjects from "./pages/ProjectDetailViews/PhotoshopProjects";
 import Chitter from "./pages/ProjectDetailViews/Chitter";
@@ -46,14 +44,6 @@ const router = createBrowserRouter([
   {
     path: '/homerbot',
     element: <Homerbot />
-  },
-  {
-    path: '/paintings',
-    element: <Paintings />
-  },
-  {
-    path: '/experiments',
-    element: <Experiments />
   },
   {
     path: '/photoshopprojects',
