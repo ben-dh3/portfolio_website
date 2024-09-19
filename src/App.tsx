@@ -16,6 +16,7 @@ import Shaders from "./pages/ProjectDetailViews/Shaders";
 import PhotoshopProjects from "./pages/ProjectDetailViews/PhotoshopProjects";
 import Chitter from "./pages/ProjectDetailViews/Chitter";
 import KafeDesignBrief from "./pages/ProjectDetailViews/KafeDesignBrief";
+import Wilde from "./pages/ProjectDetailViews/Wilde";
 
 const router = createBrowserRouter([
   {
@@ -69,6 +70,10 @@ const router = createBrowserRouter([
   {
     path: '/kafedesignbrief',
     element: <KafeDesignBrief />
+  },
+  {
+    path: '/wilde',
+    element: <Wilde />
   }
 ]);
 

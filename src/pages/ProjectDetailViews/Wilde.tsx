@@ -8,16 +8,13 @@ import PageBreak from '../../components/PageBreak';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-const Paintings: React.FC = () => {
+const Wilde: React.FC = () => {
     const images = [
-        '/projects/paintings/Beach Watercolour 1.webp',
-        '/projects/paintings/Beach Watercolour 2.webp',
-        '/projects/paintings/Beach Watercolour 3.webp',
-        '/projects/paintings/Beach Watercolour 4.webp',
-        '/projects/paintings/Beach Watercolour 5.webp',
-        '/projects/paintings/Mia Oil Painting on Canvas.webp',
-        '/projects/paintings/St Ives Watercolour.webp',
-        '/projects/paintings/Watercolour Sketch.webp',
+        '/projects/wilde/Wilde Icon.webp',
+        '/projects/wilde/Wilde Logo.webp',
+        '/projects/wilde/Material Visualisation.webp',
+        '/projects/wilde/Green Backpack.webp',
+        '/projects/wilde/Orange Backpack.webp'
     ];
 
     const { pathname } = useLocation();
@@ -28,10 +25,12 @@ const Paintings: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/homerbot" rightArrow="/experiments" />
+            <ProjectDetailNavigation leftArrow="/chitter" rightArrow="/bdhartanddesign" />
             <ProjectDetailView 
-                title="Paintings" 
-                about="" 
+                title="Wilde Design Project" 
+                about="Brand identity design for Wilde from Instagram account @designerbriefs. 3D designs created and modelled in Blender, I created the fabric effect using material shaders. I made the Logo in Adobe Illustrator.
+                
+                Wilde is a sustainable bag brand that creates stylish and practical bags for everyday use. Inspired by a love for adventure, Wilde bags are designed to be versatile, durable and perfect for any journey, whether in the city or outdoors." 
                 images={images} 
             />
             <div className='font-Arimo my-20 flex justify-center'>
@@ -46,4 +45,4 @@ const Paintings: React.FC = () => {
     )
 }
 
-export default Paintings;
+export default Wilde;
