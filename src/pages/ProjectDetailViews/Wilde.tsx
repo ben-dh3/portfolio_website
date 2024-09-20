@@ -14,7 +14,11 @@ const Wilde: React.FC = () => {
         '/projects/wilde/Wilde Logo.webp',
         '/projects/wilde/Material Visualisation.webp',
         '/projects/wilde/Green Backpack.webp',
-        '/projects/wilde/Orange Backpack.webp'
+        '/projects/wilde/Orange Backpack.webp',
+        '/projects/wilde/Orange Fabric.webp',
+        '/projects/wilde/Green Bag Reverse.webp',
+        '/projects/wilde/Orange Bag Reverse.webp',
+        '/projects/wilde/Back to Backpack.webp',
     ];
 
     const { pathname } = useLocation();
