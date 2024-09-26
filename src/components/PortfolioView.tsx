@@ -47,10 +47,12 @@ const PortfolioView = () => {
         
       </div>
       <div className='flex-1 grid grid-cols-1'>
+        <Link to="/baketoday" className="m-8 project">
+          <ProjectView image="/projects/baketoday/Pancakes and Syrup.webp" title="Bake Today Design Brief" description="Blender, Adobe Creative Suite" />
+        </Link>
         <Link to="/wilde" className="m-8 project">
           <ProjectView image="/projects/wilde/Green Backpack.webp" title="Wilde Design Brief" description="Blender, Adobe Creative Suite" />
         </Link>
-        
         <Link to="/kafedesignbrief" className="m-8 project">
           <ProjectView image="/projects/kafedesignbrief/Brand Identity Animation.webp" title="K-AFE Design Brief" description="Adobe Creative Suite" />
         </Link>

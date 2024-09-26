@@ -25,7 +25,7 @@ const BDHArtAndDesign: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/wilde" rightArrow="/pokedex" />
+            <ProjectDetailNavigation leftArrow="/baketoday" rightArrow="/pokedex" />
             <ProjectDetailView 
                 title="Ben D-H Art & Design" 
                 about="Art & Design showcase utilising Shopify Integration, exploring graphic design principles - colour theory, layout design and typography. The App is deployed and available via the globe icon below.

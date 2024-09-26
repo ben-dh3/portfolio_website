@@ -41,7 +41,7 @@ const PokedexMobile: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/bdhartanddesign" rightArrow="/kafedesignbrief" />
+            <ProjectDetailNavigation leftArrow="/bdhartanddesign" rightArrow="/wilde" />
             <ProjectDetailView 
                 title="Pokedex Android App" 
                 about="This Mobile Pokedex was created as a passion project and is available to download for Android devices via the Android icon below.
