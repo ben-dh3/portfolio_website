@@ -16,6 +16,7 @@ import Chitter from "./pages/ProjectDetailViews/Chitter";
 import KafeDesignBrief from "./pages/ProjectDetailViews/KafeDesignBrief";
 import Wilde from "./pages/ProjectDetailViews/Wilde";
 import BakeToday from "./pages/ProjectDetailViews/BakeToday";
+import Impasto from "./pages/ProjectDetailViews/Impasto";
 
 const router = createBrowserRouter([
   {
@@ -69,6 +70,10 @@ const router = createBrowserRouter([
   {
     path: '/baketoday',
     element: <BakeToday />
+  },
+  {
+    path: '/impasto',
+    element: <Impasto />
   }
 ]);
 

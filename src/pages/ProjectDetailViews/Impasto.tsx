@@ -8,12 +8,11 @@ import PageBreak from '../../components/PageBreak';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-const KafeDesignBrief: React.FC = () => {
+const Impasto: React.FC = () => {
     const images = [
-        '/projects/kafedesignbrief/Brand Identity Animation.webp',
-        '/projects/kafedesignbrief/Logo Design Animation.webp',
-        '/projects/kafedesignbrief/Coffee Cup Mockup.webp',
-        '/projects/kafedesignbrief/Sign Mockup.webp',
+        '/projects/impasto/Logo.webp',
+        '/projects/impasto/Pizza and Pizza Box.webp',
+        '/projects/impasto/Pizza Boxes.webp',
     ];
 
     const { pathname } = useLocation();
@@ -24,12 +23,12 @@ const KafeDesignBrief: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/bdhartanddesign" rightArrow="/recipeasy" />
+            <ProjectDetailNavigation leftArrow="/baketoday" rightArrow="/pokedex" />
             <ProjectDetailView 
-                title="K-AFE Design Project" 
-                about="Brand identity design for K-AFE from Instagram account @designerbriefs🫰🧋☕Logo created in Adobe Illustrator and animated in After Effects.
+                title="Impasto Design Project" 
+                about="Brand identity design for Impasto from Instagram account @designerbriefs. 3D designs created and modelled in Blender. Logo created in Adobe Illustrator.
                 
-                K-afe is a Korean cafe that offers a wide range of traditional and modern Korean beverages and snacks in a modern and inviting atmosphere making it a perfect spot for coffee lovers and foodies." 
+                Bringing the flavours of Rome to your table, Impasto makes pinsa, pizza al taglio, and other classic Roman street food, perfect for dining in or delivery. The name Impasto, meaning dough in Italian, reflects the heart of their craft." 
                 images={images} 
             />
             <div className='font-Arimo my-20 flex justify-center'>
@@ -44,4 +43,4 @@ const KafeDesignBrief: React.FC = () => {
     )
 }
 
-export default KafeDesignBrief;
+export default Impasto;
