@@ -13,6 +13,9 @@ const Impasto: React.FC = () => {
         '/projects/impasto/Logo.webp',
         '/projects/impasto/Pizza and Pizza Box.webp',
         '/projects/impasto/Pizza Boxes.webp',
+        '/projects/impasto/Box Stack.webp',
+        '/projects/impasto/Pizza Display.webp',
+        '/projects/impasto/Pizza Rack.webp',
     ];
 
     const { pathname } = useLocation();
