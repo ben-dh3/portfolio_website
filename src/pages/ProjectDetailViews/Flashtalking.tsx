@@ -23,7 +23,7 @@ const Flashtalking: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/baketoday" rightArrow="/pokedex" />
+            <ProjectDetailNavigation leftArrow="/impasto" rightArrow="/wilde" />
             <ProjectDetailView 
                 title="Flashtalking Banner Ad Design" 
                 about="A suite of 3 frame ads for Flashtalking by Mediaocean in the sizes 300x250, 300x600, 970x250, 320x50 (mobile). View the full suite of ads via the globe icon below.
