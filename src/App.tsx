@@ -17,6 +17,7 @@ import KafeDesignBrief from "./pages/ProjectDetailViews/KafeDesignBrief";
 import Wilde from "./pages/ProjectDetailViews/Wilde";
 import BakeToday from "./pages/ProjectDetailViews/BakeToday";
 import Impasto from "./pages/ProjectDetailViews/Impasto";
+import Flashtalking from "./pages/ProjectDetailViews/Flashtalking";
 
 const router = createBrowserRouter([
   {
@@ -74,6 +75,10 @@ const router = createBrowserRouter([
   {
     path: '/impasto',
     element: <Impasto />
+  },
+  {
+    path: '/flashtalking',
+    element: <Flashtalking />
   }
 ]);
 

@@ -38,6 +38,9 @@ const PortfolioView = () => {
         <Link to="/chitter" className="m-8 project">
           <ProjectView image="/projects/chitter/ThreeJS and GLSL Graphics.webp" title="Chitter" description="ThreeJS, GLSL, Flask, PostgreSQL, Tailwind, Devops, web design, software development" />
         </Link>
+        <Link to="/flashtalking" className="m-8 project">
+          <ProjectView image="/projects/flashtalking/frame 1 300x250.webp" title="Flashtalking Banner Ad Design" description="Figma, GSAP" />
+        </Link>
         <Link to="/pokedex" className="m-8 project">
           <ProjectView image="/projects/pokedexmobile/Detail Screen.webp" title="Pokedex React Native Android App" description="Adobe Creative Suite, typography, colour theory, layout design, software development, web design" />
         </Link>
