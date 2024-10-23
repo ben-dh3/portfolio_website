@@ -21,7 +21,7 @@ const Greenette: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/impasto" rightArrow="/wilde" />
+            <ProjectDetailNavigation leftArrow="/wilde" rightArrow="/pokedex" />
             <ProjectDetailView 
                 title="Greenette Design Project" 
                 about="Product visualisation for GREENETTE, a modern garden centre offering all you need to create beautiful green spaces🐌🌱 CGI scenes created in Blender, logo created in Illustrator and animated in AE.
