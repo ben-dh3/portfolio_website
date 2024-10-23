@@ -13,6 +13,7 @@ const Flashtalking: React.FC = () => {
     const images = [
         '/projects/flashtalking/frame 1 300x250.webp',
         '/projects/flashtalking/frame 2 300x250.webp',
+        '/projects/flashtalking/frame 3 300x250.webp',
     ];
 
     const { pathname } = useLocation();
