@@ -59,6 +59,9 @@ const PortfolioView = () => {
         <Link to="/kafedesignbrief" className="m-8 project">
           <ProjectView image="/projects/kafedesignbrief/Brand Identity Animation.webp" title="K-AFE Design Brief" description="Adobe Creative Suite" />
         </Link>
+        <Link to="/recipeasy" className="m-8 project">
+          <ProjectView image="/projects/recipeasy/Landing Page.webp" title="Recipeasy Recipe Webscraper App" description="software development, web design" />
+        </Link>
         <Link to="/photoshopprojects" className="m-8 project">
           <ProjectView image="/projects/photoshopprojects/Self Portrait 1.webp" title="Photoshop Graphics Projects" description="Adobe Creative Suite" />
         </Link>
@@ -68,11 +71,11 @@ const PortfolioView = () => {
         <Link to="/impasto" className="m-8 project">
           <ProjectView image="/projects/impasto/Pizza and Pizza Box.webp" title="Impasto Design Brief" description="Blender, Adobe Creative Suite" />
         </Link>
+        <Link to="/greenette" className="m-8 project">
+          <ProjectView image="/projects/greenette/greenette animation.webp" title="Greenette Design Brief" description="Blender, Adobe Creative Suite" />
+        </Link>
         <Link to="/bdhartanddesign" className="m-8 project">
           <ProjectView image="/projects/bdhartanddesign/Hero Page.webp" title="BDH Art & Design Shopify ECommerce Store" description="Adobe Creative Suite, typography, colour theory, layout design, GLSL shaders, software development, web design, motion graphics" />
-        </Link>
-        <Link to="/recipeasy" className="m-8 project">
-          <ProjectView image="/projects/recipeasy/Landing Page.webp" title="Recipeasy Recipe Webscraper App" description="software development, web design" />
         </Link>
         <Link to="/shaders" className="m-8 project">
           <ProjectView image="/projects/shaders/Fractal Brownian Motion.webp" title="GLSL Shaders" description="GLSL" />
