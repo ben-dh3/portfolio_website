@@ -11,6 +11,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 const Greenette: React.FC = () => {
     const images = [
         '/projects/greenette/greenette animation.webp',
+        '/projects/greenette/greenette claymation.webp',
     ];
 
     const { pathname } = useLocation();

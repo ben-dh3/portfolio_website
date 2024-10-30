@@ -72,7 +72,7 @@ const PortfolioView = () => {
           <ProjectView image="/projects/impasto/Pizza and Pizza Box.webp" title="Impasto Design Brief" description="Blender, Adobe Creative Suite" />
         </Link>
         <Link to="/greenette" className="m-8 project">
-          <ProjectView image="/projects/greenette/greenette animation.webp" title="Greenette Design Brief" description="Blender, Adobe Creative Suite" />
+          <ProjectView image="/projects/greenette/greenette claymation.webp" title="Greenette Design Brief" description="Blender, Adobe Creative Suite" />
         </Link>
         <Link to="/bdhartanddesign" className="m-8 project">
           <ProjectView image="/projects/bdhartanddesign/Hero Page.webp" title="BDH Art & Design Shopify ECommerce Store" description="Adobe Creative Suite, typography, colour theory, layout design, GLSL shaders, software development, web design, motion graphics" />
