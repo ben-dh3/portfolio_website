@@ -29,7 +29,7 @@ const Wilde: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/flashtalking" rightArrow="/greenette" />
+            <ProjectDetailNavigation leftArrow="/impasto" rightArrow="/greenette" />
             <ProjectDetailView 
                 title="Wilde Design Project" 
                 about="Brand identity design for Wilde from Instagram account @designerbriefs. 3D designs created and modelled in Blender, I created the fabric effect using material shaders. I made the Logo in Adobe Illustrator.

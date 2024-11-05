@@ -53,8 +53,8 @@ const PortfolioView = () => {
         <Link to="/rebrush" className="m-8 project">
           <ProjectView image="/projects/rebrush/Hero.webp" title="REBRUSH Wordpress Website" description="Wordpress, WooCommerce, Custome Themes & Plugins, Blender, Adobe Creative Suite" />
         </Link>
-        <Link to="/baketoday" className="m-8 project">
-          <ProjectView image="/projects/baketoday/Pancakes and Syrup.webp" title="Bake Today Design Brief" description="Blender, Adobe Creative Suite" />
+        <Link to="/impasto" className="m-8 project">
+          <ProjectView image="/projects/impasto/Pizza and Pizza Box.webp" title="Impasto Design Brief" description="Blender, Adobe Creative Suite" />
         </Link>
         <Link to="/wilde" className="m-8 project">
           <ProjectView image="/projects/wilde/Green Backpack.webp" title="Wilde Design Brief" description="Blender, Adobe Creative Suite" />
@@ -71,8 +71,8 @@ const PortfolioView = () => {
         
       </div>
       <div className='flex-1 grid grid-cols-1'>
-        <Link to="/impasto" className="m-8 project">
-          <ProjectView image="/projects/impasto/Pizza and Pizza Box.webp" title="Impasto Design Brief" description="Blender, Adobe Creative Suite" />
+        <Link to="/baketoday" className="m-8 project">
+          <ProjectView image="/projects/baketoday/Pancakes and Syrup.webp" title="Bake Today Design Brief" description="Blender, Adobe Creative Suite" />
         </Link>
         <Link to="/greenette" className="m-8 project">
           <ProjectView image="/projects/greenette/greenette claymation.webp" title="Greenette Design Brief" description="Blender, Adobe Creative Suite" />

@@ -28,7 +28,7 @@ const Rebrush: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/wilde" rightArrow="/pokedex" />
+            <ProjectDetailNavigation leftArrow="/chitter" rightArrow="/baketoday" />
             <ProjectDetailView 
                 title="REBRUSH Wordpress Website" 
                 about="Wordpress website and 3D CGI scenes made for REBRUSH, a company offering eco-friendly toothbrushes made from recycled materials. View the website via the globe icon below.
