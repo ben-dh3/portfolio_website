@@ -19,6 +19,7 @@ import BakeToday from "./pages/ProjectDetailViews/BakeToday";
 import Impasto from "./pages/ProjectDetailViews/Impasto";
 import Flashtalking from "./pages/ProjectDetailViews/Flashtalking";
 import Greenette from "./pages/ProjectDetailViews/Greenette";
+import Rebrush from "./pages/ProjectDetailViews/Rebrush";
 
 const router = createBrowserRouter([
   {
@@ -84,6 +85,10 @@ const router = createBrowserRouter([
   {
     path: '/greenette',
     element: <Greenette />
+  },
+  {
+    path: '/rebrush',
+    element: <Rebrush />
   }
 ]);
 

@@ -11,7 +11,13 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 const Rebrush: React.FC = () => {
     const images = [
-        '/projects/rebrush/Home.webp',
+        '/projects/rebrush/Hero.webp',
+        '/projects/rebrush/Colours.webp',
+        '/projects/rebrush/Reviews and CTA.webp',
+        '/projects/rebrush/Product.webp',
+        '/projects/rebrush/Collection.webp',
+        '/projects/rebrush/Brush Head Detail.webp',
+        '/projects/rebrush/Handle Detail.webp',
     ];
 
     const { pathname } = useLocation();
