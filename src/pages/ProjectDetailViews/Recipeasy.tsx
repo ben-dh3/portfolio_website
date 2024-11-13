@@ -11,11 +11,11 @@ import PageBreak from '../../components/PageBreak';
 const Recipeasy: React.FC = () => {
     const images = [
         '/projects/recipeasy/Landing Page.webp',
+        '/projects/recipeasy/Favourite Button.webp',
         '/projects/recipeasy/Create Account.webp',
         '/projects/recipeasy/Login.webp',
         '/projects/recipeasy/Edit Recipe Top.webp',
         '/projects/recipeasy/Edit Recipe Bottom.webp',
-        '/projects/recipeasy/Favourite Button.webp',
         '/projects/recipeasy/My Recipes Page.webp',
         '/projects/recipeasy/Create Recipe From Scratch.webp',
         '/projects/recipeasy/Logo.webp',
