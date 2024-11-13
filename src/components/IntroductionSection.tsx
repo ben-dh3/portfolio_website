@@ -23,7 +23,7 @@ const IntroductionSection = () => {
                 </div>
             </div>
             <PageBreak />
-            <Marquee message="WEB DESIGN • GRAPHIC DESIGN • SOFTWARE DEVELOPMENT • " />
+            <Marquee message="WEB DESIGN • 3D DESIGN • SOFTWARE DEVELOPMENT • " />
             <PageBreak />
         </div>
     );
