@@ -22,7 +22,7 @@ const PhotoshopProjects: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/frogbit" rightArrow="/shaders" />
+            <ProjectDetailNavigation leftArrow="/homerbot" rightArrow="/shaders" />
             <ProjectDetailView 
                 title="Photoshop Graphics Projects" 
                 about="This artwork was created to showcase some impressive effects made with Photoshop." 

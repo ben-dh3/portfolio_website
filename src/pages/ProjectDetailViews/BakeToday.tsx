@@ -24,7 +24,7 @@ const BakeToday: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/rebrush" rightArrow="/flashtalking" />
+            <ProjectDetailNavigation leftArrow="/impasto" rightArrow="/pokedex" />
             <ProjectDetailView 
                 title="Bake Today Design Project" 
                 about="Brand identity design for Bake Today from Instagram account @designerbriefs. 3D designs created and modelled in Blender. I made the Logo in Adobe Illustrator.

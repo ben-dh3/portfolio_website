@@ -26,7 +26,7 @@ const Impasto: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/flashtalking" rightArrow="/wilde" />
+            <ProjectDetailNavigation leftArrow="/flashtalking" rightArrow="/baketoday" />
             <ProjectDetailView 
                 title="Impasto Design Project" 
                 about="Brand identity design for Impasto from Instagram account @designerbriefs. 3D designs created and modelled in Blender. Logo created in Adobe Illustrator.

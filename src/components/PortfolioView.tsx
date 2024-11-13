@@ -47,7 +47,9 @@ const PortfolioView = () => {
         <Link to="/frogbit" className="m-8 project">
           <ProjectView image="/projects/frogbit/Hero Section.webp" title="Cryptocurrency Frontend and Token" description="cryptocurrency development, software development, web design, pixel art" />
         </Link>
-        
+        <Link to="/homerbot" className="m-8 project">
+          <ProjectView image="/projects/homerbot/Landing Page.webp" title="Homerbot AI Chatbot" description="web design, pixel art" />
+        </Link>
       </div>
       <div className='flex-1 grid grid-cols-1'>
         <Link to="/rebrush" className="m-8 project">
@@ -62,15 +64,16 @@ const PortfolioView = () => {
         <Link to="/kafedesignbrief" className="m-8 project">
           <ProjectView image="/projects/kafedesignbrief/Brand Identity Animation.webp" title="K-AFE Design Brief" description="Adobe Creative Suite" />
         </Link>
-        <Link to="/recipeasy" className="m-8 project">
-          <ProjectView image="/projects/recipeasy/Landing Page.webp" title="Recipeasy Recipe Webscraper App" description="software development, web design" />
-        </Link>
+        
         <Link to="/photoshopprojects" className="m-8 project">
           <ProjectView image="/projects/photoshopprojects/Self Portrait 1.webp" title="Photoshop Graphics Projects" description="Adobe Creative Suite" />
         </Link>
         
       </div>
       <div className='flex-1 grid grid-cols-1'>
+        <Link to="/recipeasy" className="m-8 project">
+          <ProjectView image="/projects/recipeasy/Landing Page.webp" title="Recipeasy Recipe Webscraper App" description="software development, web design" />
+        </Link>
         <Link to="/baketoday" className="m-8 project">
           <ProjectView image="/projects/baketoday/Pancakes and Syrup.webp" title="Bake Today Design Brief" description="Blender, Adobe Creative Suite" />
         </Link>
@@ -82,11 +85,7 @@ const PortfolioView = () => {
         </Link>
         <Link to="/shaders" className="m-8 project">
           <ProjectView image="/projects/shaders/Fractal Brownian Motion.webp" title="GLSL Shaders" description="GLSL" />
-        </Link>
-        <Link to="/homerbot" className="m-8 project">
-          <ProjectView image="/projects/homerbot/Landing Page.webp" title="Homerbot AI Chatbot" description="web design, pixel art" />
-        </Link>
-        
+        </Link>  
       </div>
     </div>
   );
