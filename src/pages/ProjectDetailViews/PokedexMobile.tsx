@@ -11,13 +11,13 @@ import PageBreak from '../../components/PageBreak';
 const PokedexMobile: React.FC = () => {
     const images = [
         '/projects/pokedexmobile/Search Screen.webp',
-        '/projects/pokedexmobile/Detail Screen.webp',
+        '/projects/pokedexmobile/Detail Screen (Grass Type).webp',
+        '/projects/pokedexmobile/Detail Screen (Electric Type).webp',
         '/projects/pokedexmobile/Splash Screen Typography.webp',
         '/projects/pokedexmobile/Search Screen Typography.webp',
         '/projects/pokedexmobile/Mobile Icon.webp',
         '/projects/pokedexmobile/pokemon-types/Fire.webp',
         '/projects/pokedexmobile/pokemon-types/Water.webp',
-        '/projects/pokedexmobile/pokemon-types/Grass.webp',
         '/projects/pokedexmobile/pokemon-types/Ice.webp',
         '/projects/pokedexmobile/pokemon-types/Normal.webp',
         '/projects/pokedexmobile/pokemon-types/Fighting.webp',

@@ -31,7 +31,7 @@ const Recipeasy: React.FC = () => {
         <div className="bg-black text-white">
             <ProjectDetailNavigation leftArrow="/rebrush" rightArrow="/flashtalking" />
             <ProjectDetailView 
-                title="Recipeasy" 
+                title="Recipeasy - Recipe Web Scraping Application" 
                 about="Recipeasy was created to solve the inaccessibility issue of long form recipe blogs. This was made for our final project in an Agile engineering team at Makers.
 
 The core functionality is a web scraper that takes a URL to a recipe and scrapes the recipe data from the web page, then a recipe form is populated in the app which can be modified, saved, and stored. Create an account, login, and favourite your best finds. With the create new recipe feature - fill in a blank recipe form and save it to your collection.

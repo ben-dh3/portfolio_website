@@ -36,13 +36,13 @@ const PortfolioView = () => {
     <div ref={projectsRef} className="bg-black text-white flex flex-col md:flex-row justify-evenly min-h-screen w-full">
       <div className='flex-1 grid grid-cols-1'>
         <Link to="/chitter" className="m-8 project">
-          <ProjectView image="/projects/chitter/ThreeJS and GLSL Graphics.webp" title="Chitter" description="ThreeJS, GLSL, Flask, PostgreSQL, Tailwind, Devops, web design, software development" />
+          <ProjectView image="/projects/chitter/ThreeJS and GLSL Graphics.webp" title="Chitter Social Media Website" description="ThreeJS, GLSL, Flask, PostgreSQL, Tailwind, Devops, web design, software development" />
+        </Link>
+        <Link to="/pokedex" className="m-8 project">
+          <ProjectView image="/projects/pokedexmobile/Detail Screen (Electric Type).webp" title="Pokedex React Native Android App" description="Adobe Creative Suite, typography, colour theory, layout design, software development, web design" />
         </Link>
         <Link to="/flashtalking" className="m-8 project">
           <ProjectView image="/projects/flashtalking/frame 1 300x250.webp" title="Flashtalking Banner Ad Design" description="Figma, GSAP" />
-        </Link>
-        <Link to="/pokedex" className="m-8 project">
-          <ProjectView image="/projects/pokedexmobile/Detail Screen.webp" title="Pokedex React Native Android App" description="Adobe Creative Suite, typography, colour theory, layout design, software development, web design" />
         </Link>
         <Link to="/frogbit" className="m-8 project">
           <ProjectView image="/projects/frogbit/Hero Section.webp" title="Cryptocurrency Frontend and Token" description="cryptocurrency development, software development, web design, pixel art" />
@@ -72,7 +72,7 @@ const PortfolioView = () => {
       </div>
       <div className='flex-1 grid grid-cols-1'>
         <Link to="/recipeasy" className="m-8 project">
-          <ProjectView image="/projects/recipeasy/Landing Page.webp" title="Recipeasy Recipe Webscraper App" description="software development, web design" />
+          <ProjectView image="/projects/recipeasy/Landing Page.webp" title="Recipeasy - Recipe Web Scraping Application" description="software development, web design" />
         </Link>
         <Link to="/baketoday" className="m-8 project">
           <ProjectView image="/projects/baketoday/Pancakes and Syrup.webp" title="Bake Today Design Brief" description="Blender, Adobe Creative Suite" />
