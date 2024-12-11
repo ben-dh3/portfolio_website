@@ -30,7 +30,7 @@ const Rebrush: React.FC = () => {
             <ProjectDetailNavigation leftArrow="/chitter" rightArrow="/recipeasy" />
             <ProjectDetailView 
                 title="REBRUSH Wordpress Website" 
-                about="Wordpress website and 3D CGI scenes made for REBRUSH, a company offering eco-friendly toothbrushes made from recycled materials. View the website via the globe icon below.
+                about="Wordpress website and 3D CGI scenes made for REBRUSH, a company offering eco-friendly toothbrushes made from recycled materials.
 
 I created a custom theme and colour scheme in Wordpress, and used the Google Fonts for Wordpress plugin to refine my brand identity. I used the variable product option with WooCommerce to display the different colour options in an intuitive way.
 
@@ -40,9 +40,6 @@ I created the CGI scenes in Blender and modelled the brushes with inspiration fr
             />
             <div className='font-Arimo my-20 flex justify-center'>
                 Source Links:
-                <a href="https://rebrushhealth.wpcomstaging.com/" target='_blank' aria-label="Website Link">
-                    <FontAwesomeIcon icon={faGlobe} className="text-2xl mx-2" />
-                </a>
                 <a href="https://www.instagram.com/ben.d_h/" target='_blank' aria-label="Instagram Link">
                     <FontAwesomeIcon icon={faInstagram} className="text-2xl mx-2" />
                 </a>
