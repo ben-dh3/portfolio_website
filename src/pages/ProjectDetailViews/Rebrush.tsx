@@ -7,7 +7,6 @@ import ProjectDetailView from "../../components/ProjectDetailView";
 import PageBreak from '../../components/PageBreak';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 const Rebrush: React.FC = () => {
     const images = [
