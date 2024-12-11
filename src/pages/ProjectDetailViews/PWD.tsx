@@ -1,17 +1,19 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import PortfolioView from "../../components/PortfolioView";
 import ProjectDetailNavigation from "../../components/ProjectDetailNavigation";
 import ProjectDetailView from "../../components/ProjectDetailView";
 import PageBreak from '../../components/PageBreak';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
-const PhotoshopProjects: React.FC = () => {
+const PWD: React.FC = () => {
     const images = [
-        '/projects/photoshopprojects/Self Portrait 1.webp',
-        '/projects/photoshopprojects/Self Portrait 2.webp'
+        '/projects/PWD/WWO.webp',
+        '/projects/PWD/Contact Page.webp',
+        '/projects/PWD/Hero.webp',
+        '/projects/PWD/FAQ Mobile.webp',
     ];
 
     const { pathname } = useLocation();
@@ -22,16 +24,16 @@ const PhotoshopProjects: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/bdhartanddesign" rightArrow="/kafedesignbrief" />
+            <ProjectDetailNavigation leftArrow="/chitter" rightArrow="/recipeasy" />
             <ProjectDetailView 
-                title="Photoshop Graphics Projects" 
-                about="This artwork was created to showcase some impressive effects made with Photoshop." 
+                title="Putney Web Design Website" 
+                about="Business website for Putney Web Designs, made using React, Javascript and Tailwind. See the site via the globe icon below." 
                 images={images} 
             />
             <div className='font-Arimo my-20 flex justify-center'>
                 Source Links:
-                <a href="https://www.instagram.com/ben.d_h/" target='_blank' aria-label="Instagram Link">
-                    <FontAwesomeIcon icon={faInstagram} className="text-2xl mx-2" />
+                <a href="https://putneywebdesigns.netlify.app/" target='_blank' aria-label="Website Link">
+                    <FontAwesomeIcon icon={faGlobe} className="text-2xl mx-2" />
                 </a>
             </div>
             <PageBreak />
@@ -40,4 +42,4 @@ const PhotoshopProjects: React.FC = () => {
     )
 }
 
-export default PhotoshopProjects;
+export default PWD;

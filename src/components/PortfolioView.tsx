@@ -36,7 +36,7 @@ const PortfolioView = () => {
     <div ref={projectsRef} className="bg-black text-white flex flex-col md:flex-row justify-evenly min-h-screen w-full">
       <div className='flex-1 grid grid-cols-1'>
         <Link to="/chitter" className="m-8 project">
-          <ProjectView image="/projects/chitter/ThreeJS and GLSL Graphics.webp" title="Chitter Social Media Website" description="ThreeJS, GLSL, Flask, PostgreSQL, Tailwind, Devops, web design, software development" />
+          <ProjectView image="/projects/chitter/ThreeJS and GLSL Graphics.webp" title="Chitter Social Media Website" description="ThreeJS, GLSL, Flask, PostgreSQL, Tailwind, DevOps, web design, software development" />
         </Link>
         <Link to="/pokedex" className="m-8 project">
           <ProjectView image="/projects/pokedexmobile/Detail Screen (Electric Type).webp" title="Pokedex React Native Android App" description="Adobe Creative Suite, typography, colour theory, layout design, software development, web design" />
@@ -50,8 +50,14 @@ const PortfolioView = () => {
         <Link to="/homerbot" className="m-8 project">
           <ProjectView image="/projects/homerbot/Landing Page.webp" title="Homerbot AI Chatbot" description="web design, pixel art" />
         </Link>
+        <Link to="/photoshopprojects" className="m-8 project">
+          <ProjectView image="/projects/photoshopprojects/Self Portrait 1.webp" title="Photoshop Graphics Projects" description="Adobe Creative Suite" />
+        </Link>
       </div>
       <div className='flex-1 grid grid-cols-1'>
+        <Link to="/PWD" className="m-8 project">
+          <ProjectView image="/projects/PWD/WWO.webp" title="Putney Web Design Website" description="React, Javascript, Tailwind, DevOps, web design, software development" />
+        </Link>
         <Link to="/rebrush" className="m-8 project">
           <ProjectView image="/projects/rebrush/Hero.webp" title="REBRUSH Wordpress Website" description="Wordpress, WooCommerce, Custome Themes & Plugins, Blender, Adobe Creative Suite" />
         </Link>
@@ -64,11 +70,6 @@ const PortfolioView = () => {
         <Link to="/kafedesignbrief" className="m-8 project">
           <ProjectView image="/projects/kafedesignbrief/Brand Identity Animation.webp" title="K-AFE Design Brief" description="Adobe Creative Suite" />
         </Link>
-        
-        <Link to="/photoshopprojects" className="m-8 project">
-          <ProjectView image="/projects/photoshopprojects/Self Portrait 1.webp" title="Photoshop Graphics Projects" description="Adobe Creative Suite" />
-        </Link>
-        
       </div>
       <div className='flex-1 grid grid-cols-1'>
         <Link to="/recipeasy" className="m-8 project">

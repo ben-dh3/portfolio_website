@@ -20,6 +20,7 @@ import Impasto from "./pages/ProjectDetailViews/Impasto";
 import Flashtalking from "./pages/ProjectDetailViews/Flashtalking";
 import Greenette from "./pages/ProjectDetailViews/Greenette";
 import Rebrush from "./pages/ProjectDetailViews/Rebrush";
+import PWD from "./pages/ProjectDetailViews/PWD";
 
 const router = createBrowserRouter([
   {
@@ -89,7 +90,11 @@ const router = createBrowserRouter([
   {
     path: '/rebrush',
     element: <Rebrush />
-  }
+  },
+  {
+    path: '/PWD',
+    element: <PWD />
+  },
 ]);
 
 function App() {

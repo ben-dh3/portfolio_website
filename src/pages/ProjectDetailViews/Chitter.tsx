@@ -26,7 +26,7 @@ const Chitter: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/shaders" rightArrow="/rebrush" />
+            <ProjectDetailNavigation leftArrow="/shaders" rightArrow="/PWD" />
             <ProjectDetailView 
                 title="Chitter Social Media Website" 
                 about="Social media website built with Flask and PostgreSQL, with graphics made in Three.js and GLSL. Deployed on a virtual machine with Digital Ocean. Check out the website via the globe icon below.
