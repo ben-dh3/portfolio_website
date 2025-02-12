@@ -29,7 +29,7 @@ const Recipeasy: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/PWD" rightArrow="/pokedex" />
+            <ProjectDetailNavigation leftArrow="/elizaos" rightArrow="/pokedex" />
             <ProjectDetailView 
                 title="Recipeasy - Recipe Web Scraping Application" 
                 about="Recipeasy was created to solve the inaccessibility issue of long form recipe blogs. This was made for our final project in an Agile engineering team at Makers.

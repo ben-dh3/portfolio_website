@@ -24,7 +24,7 @@ const PWD: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/chitter" rightArrow="/recipeasy" />
+            <ProjectDetailNavigation leftArrow="/pokedex" rightArrow="/baketoday" />
             <ProjectDetailView 
                 title="Putney Web Design Website" 
                 about="Business website for Putney Web Designs, made using React, Javascript and Tailwind. See the site via the globe icon below." 

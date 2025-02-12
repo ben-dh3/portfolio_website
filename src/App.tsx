@@ -21,6 +21,7 @@ import Flashtalking from "./pages/ProjectDetailViews/Flashtalking";
 import Greenette from "./pages/ProjectDetailViews/Greenette";
 import Rebrush from "./pages/ProjectDetailViews/Rebrush";
 import PWD from "./pages/ProjectDetailViews/PWD";
+import ElizaOS from "./pages/ProjectDetailViews/ElizaOS";
 
 const router = createBrowserRouter([
   {
@@ -94,6 +95,10 @@ const router = createBrowserRouter([
   {
     path: '/PWD',
     element: <PWD />
+  },
+  {
+    path: '/elizaos',
+    element: <ElizaOS />
   },
 ]);
 
