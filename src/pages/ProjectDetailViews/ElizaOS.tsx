@@ -27,7 +27,7 @@ const ElizaOS: React.FC = () => {
                 title="ElizaOS Contributions and AI Agent Development" 
                 about="ElizaOS is a library for creating AI agents, that extend the abilities of an AI model to be able to perform specific tasks. 
                 
-                I have contributed by creating a plugin for the Zapper API which allows users to view a formattedportfolio of given addresses. I created a Farcaster action which allows users to view a portfolio of addresses from a given Farcaster username.
+                I have contributed by creating a plugin for the Zapper API which allows users to view a formatted portfolio of given addresses. I created a Farcaster action which allows users to view a portfolio of addresses from a given Farcaster username.
                 
                 I also created a Discord bot which allows users to access an AI agent with Zapper API capabilities.
                 " 
