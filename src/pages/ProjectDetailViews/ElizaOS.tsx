@@ -35,7 +35,7 @@ const ElizaOS: React.FC = () => {
             />
             <div className='font-Arimo my-20 flex justify-center'>
                 Source Links:
-                <a href="https://github.com/ben-dh3/eliza/tree/main/packages/plugin-zapper" target='_blank' aria-label="Github Link">
+                <a href="https://github.com/ben-dh3/plugin-zapper" target='_blank' aria-label="Github Link">
                     <FontAwesomeIcon icon={faGithub} className="text-2xl mx-2" />
                 </a>
             </div>
