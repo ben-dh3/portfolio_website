@@ -56,7 +56,7 @@ const PortfolioView = () => {
       </div>
       <div className='flex-1 grid grid-cols-1'>
         <Link to="/elizaos" className="m-8 project">
-          <ProjectView image="/projects/elizaos/Farcaster Action on Discord.webp" title="ElizaOS Contributions and AI Agent Development" description="AI Agent Development, Discord Bot Development, software development, continuous integration" />
+          <ProjectView image="/projects/elizaos/Farcaster Action on Discord.webp" title="Eliza OS Contributions and AI Agent Development" description="AI Agent Development, Discord Bot Development, software development, continuous integration, Vitest, Typescript, Docker" />
         </Link>
         <Link to="/PWD" className="m-8 project">
           <ProjectView image="/projects/PWD/WWO.webp" title="Putney Web Design Website" description="React, Javascript, Tailwind, DevOps, web design, software development" />
