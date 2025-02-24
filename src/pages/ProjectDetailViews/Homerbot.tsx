@@ -24,12 +24,12 @@ const Homerbot: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/wilde" rightArrow="/bdhartanddesign" />
+            <ProjectDetailNavigation leftArrow="/impasto" rightArrow="/chitter" />
             <ProjectDetailView 
                 title="Homerbot" 
                 about="This is an AI chat bot using OpenAI's API; the AI model has been fine tuned with dialogue to respond like Homer Simpson. The App is deployed and available via the globe icon below. 
 
-The UI has been designed in Figma with references to Simpsons episodes, and graphics made in Piskel. The application is built with Next.js and deployed with Vercel." 
+The UI has been designed in Figma with references to Simpsons episodes, and graphics made in Piskel. The application is built with NextJS and deployed with Vercel." 
                 images={images} 
             />
             <div className='font-Arimo my-20 flex justify-center'>

@@ -24,7 +24,7 @@ const KafeDesignBrief: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/photoshopprojects" rightArrow="/shaders" />
+            <ProjectDetailNavigation leftArrow="/frogbit" rightArrow="/wilde" />
             <ProjectDetailView 
                 title="K-AFE Design Project" 
                 about="Brand identity design for K-AFE from Instagram account @designerbriefs🫰🧋☕Logo created in Adobe Illustrator and animated in After Effects.

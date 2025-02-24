@@ -22,7 +22,7 @@ const Shaders: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/kafedesignbrief" rightArrow="/chitter" />
+            <ProjectDetailNavigation leftArrow="/rebrush" rightArrow="/frogbit" />
             <ProjectDetailView 
                 title="GLSL Shaders" 
                 about="Created Northern Lights effect using Fractal Brownian Motion. An interactive version is available along with source code via the globe icon below." 

@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'; // Import the necessary icons
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'; // Import the necessary icons
 
 import Marquee from './Marquee';
 import PageBreak from './PageBreak';
@@ -16,9 +16,6 @@ const IntroductionSection = () => {
                     </a>
                     <a href="https://www.linkedin.com/in/benjamin-duffield-harding-051011254/" target='_blank' aria-label="LinkedIn Link">
                         <FontAwesomeIcon icon={faLinkedin} className="text-2xl mx-2" />
-                    </a>
-                    <a href="https://www.instagram.com/ben.d_h/" target='_blank' aria-label="Instagram Link">
-                        <FontAwesomeIcon icon={faInstagram} className="text-2xl mx-2" />
                     </a>
                 </div>
             </div>
