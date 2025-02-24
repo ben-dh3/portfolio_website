@@ -29,7 +29,7 @@ const Chitter: React.FC = () => {
             <ProjectDetailNavigation leftArrow="/shaders" rightArrow="/elizaos" />
             <ProjectDetailView 
                 title="Chitter Social Media Website" 
-                about="Social media website built with Flask and PostgreSQL, with graphics made in Three.js and GLSL. Deployed on a virtual machine with Digital Ocean. Check out the website via the globe icon below.
+                about="A CRUD app built with Flask and PostgreSQL, with graphics made in Three.js and GLSL. Deployed on a virtual machine with Digital Ocean. Check out the website via the globe icon below.
 
 For the background graphics, I have created a shader light effect in GLSL and applied it as a material to my meshes in ThreeJS. This aims to simulate refraction and dispersion as the viewer sees through the objects to the text behind. The Chitter logo was created in Adobe Illustrator.
 
