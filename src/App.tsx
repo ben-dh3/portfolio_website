@@ -19,6 +19,7 @@ import Flashtalking from "./pages/ProjectDetailViews/Flashtalking";
 import Rebrush from "./pages/ProjectDetailViews/Rebrush";
 import PWD from "./pages/ProjectDetailViews/PWD";
 import ElizaOS from "./pages/ProjectDetailViews/ElizaOS";
+import AIPortfolio from "./pages/ProjectDetailViews/AIPortfolio";
 
 const router = createBrowserRouter([
   {
@@ -84,6 +85,10 @@ const router = createBrowserRouter([
   {
     path: '/elizaos',
     element: <ElizaOS />
+  },
+  {
+    path: '/aiportfolio',
+    element: <AIPortfolio />
   },
 ]);
 

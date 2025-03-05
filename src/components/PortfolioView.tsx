@@ -35,6 +35,9 @@ const PortfolioView = () => {
   return (
     <div ref={projectsRef} className="bg-black text-white flex flex-col md:flex-row justify-evenly min-h-screen w-full">
       <div className='flex-1 grid grid-cols-1'>
+        <Link to="/aiportfolio" className="m-8 project">
+          <ProjectView image="/projects/aiportfolio/Save Wallet View.webp" title="AI Portfolio App" description="AWS Lambda, DynamoDB, API Gateway, Amplify, Typescript, React" />
+        </Link>
         <Link to="/chitter" className="m-8 project">
           <ProjectView image="/projects/chitter/ThreeJS and GLSL Graphics.webp" title="Chitter Social Media Website" description="Python, Pytest, CRUD, ThreeJS, GLSL, Flask, PostgreSQL" />
         </Link>
@@ -47,9 +50,7 @@ const PortfolioView = () => {
         <Link to="/frogbit" className="m-8 project">
           <ProjectView image="/projects/frogbit/Hero Section.webp" title="Cryptocurrency Frontend and Token" description="Solidity, React, Figma" />
         </Link>
-        <Link to="/wilde" className="m-8 project">
-          <ProjectView image="/projects/wilde/Green Backpack.webp" title="Wilde Design Brief" description="Blender, Adobe Creative Suite" />
-        </Link>
+        
       </div>
       <div className='flex-1 grid grid-cols-1'>
         <Link to="/elizaos" className="m-8 project">
@@ -63,6 +64,9 @@ const PortfolioView = () => {
         </Link>
         <Link to="/impasto" className="m-8 project">
           <ProjectView image="/projects/impasto/Pizza and Pizza Box.webp" title="Impasto Design Brief" description="Blender, Adobe Creative Suite" />
+        </Link>
+        <Link to="/wilde" className="m-8 project">
+          <ProjectView image="/projects/wilde/Green Backpack.webp" title="Wilde Design Brief" description="Blender, Adobe Creative Suite" />
         </Link>
       </div>
       <div className='flex-1 grid grid-cols-1'>
