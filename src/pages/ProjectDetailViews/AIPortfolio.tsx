@@ -6,7 +6,7 @@ import PortfolioView from "../../components/PortfolioView";
 import ProjectDetailNavigation from "../../components/ProjectDetailNavigation";
 import ProjectDetailView from "../../components/ProjectDetailView";
 import PageBreak from '../../components/PageBreak';
-import { faDiscord, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 const AIPortfolio: React.FC = () => {
