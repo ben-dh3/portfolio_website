@@ -15,7 +15,7 @@ const IntroductionSection = () => {
                     {`
     Self-taught software developer and Makers Academy alumnus specializing in building great user experiences for full-stack web applications in Agile teams.
 
-    Proficient in React.js, TypeScript, JavaScript (ES6+), Node.js, and RESTful APIs, I utilize Jest and other testing libraries to ensure code quality.
+    Proficient in AWS, React.js, TypeScript, JavaScript (ES6+), Node.js, and RESTful APIs, I utilize Jest and other testing libraries to ensure code quality.
     `}
                     </div>
                 </div>

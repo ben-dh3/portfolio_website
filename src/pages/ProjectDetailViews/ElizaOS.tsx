@@ -22,7 +22,7 @@ const ElizaOS: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/aiportfolio" rightArrow="/recipeasy" />
+            <ProjectDetailNavigation leftArrow="/chitter" rightArrow="/pokedex" />
             <ProjectDetailView 
                 title="Eliza OS Contributions and AI Agent Development" 
                 about="Eliza OS is a library for creating AI agents that extend the abilities of an AI model to be able to perform specific tasks. 

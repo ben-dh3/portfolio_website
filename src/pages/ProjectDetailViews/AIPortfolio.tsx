@@ -24,7 +24,7 @@ const AIPortfolio: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/homerbot" rightArrow="/elizaos" />
+            <ProjectDetailNavigation leftArrow="/kafe" rightArrow="/balancednews" />
             <ProjectDetailView 
                 title="AWS AI Portfolio" 
                 about="The AI Portfolio uses the Claude LLM to analyze portfolio data from the Zapper API and news sentiment from CryptoPanic to generate suggestions for investment allocation.

@@ -24,7 +24,7 @@ const Homerbot: React.FC = () => {
 
     return(
         <div className="bg-black text-white">
-            <ProjectDetailNavigation leftArrow="/wilde" rightArrow="/aiportfolio" />
+            <ProjectDetailNavigation leftArrow="/pokedex" rightArrow="/shaders" />
             <ProjectDetailView 
                 title="Homerbot" 
                 about="This is an AI chat bot using OpenAI's API; the AI model has been fine tuned with dialogue to respond like Homer Simpson. The App is deployed and available via the globe icon below. 
