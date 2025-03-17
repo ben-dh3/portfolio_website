@@ -13,6 +13,7 @@ const BalancedNews: React.FC = () => {
     const images = [
         '/projects/balancednews/Headlines Page.webp',
         '/projects/balancednews/Articles Page.webp',
+        '/projects/balancednews/Flow Chart.webp',
     ];
 
     const { pathname } = useLocation();
@@ -26,7 +27,9 @@ const BalancedNews: React.FC = () => {
             <ProjectDetailNavigation leftArrow="/aiportfolio" rightArrow="/recipeasy" />
             <ProjectDetailView 
                 title="Balanced News PWA" 
-                about="Full-stack PWA built with AWS. Aims to provide a balanced political perspective on top headlines. Uses Anthropic API to generate summaries of related articles across the political spectrum.
+                about="Full-stack PWA built with AWS, React and Typescript. View the app via the globe icon below.
+                
+                Aims to provide a balanced political perspective on top headlines. Uses Anthropic API to generate summaries of related articles across the political spectrum.
                 " 
                 images={images} 
             />
