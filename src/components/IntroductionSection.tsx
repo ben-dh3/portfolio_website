@@ -8,14 +8,14 @@ const IntroductionSection = () => {
     return (
         <div className='m-5'>
             <PageBreak />
-            <div className='flex flex-row'>
+            <div className='flex flex-row gap-2'>
                 <div className='flex-1 justify-start'>
                     <div className='text-3xl font-Arimo-Italic font-bold'>BEN DUFFIELD-HARDING</div>
                     <div className='about-text text-xl font-Arimo font-bold'>
                     {`
-    Self-taught software developer and Makers Academy alumnus specializing in building great user experiences for full-stack web applications in Agile teams.
+    Creative and conscientious developer with a drive to create innovative tech that contributes to meaningful positive change.
 
-    Proficient in AWS, React.js, TypeScript, JavaScript (ES6+), Node.js, and RESTful APIs, I utilize Jest and other testing libraries to ensure code quality.
+    Proficient in AWS, NextJS and TypeScript, I utilize Blender and ThreeJS to build visually stunning projects.
     `}
                     </div>
                 </div>
@@ -30,15 +30,15 @@ const IntroductionSection = () => {
                     </div>
                     <div className='about-text text-xl font-Arimo font-bold'>
                     {`
-    My background in customer service and personal training has honed my problem-solving skills and ability to thrive in collaborative environments. Experienced in methodologies such as Agile, Test-Driven Development (TDD), and Code Reviews. 
-    
-    I am currently seeking a permanent position that will allow me to further improve my technical skills and contribute to innovative projects.
+    My background in nutrition and fitness, and passion for art and 3D creation gives me a unique perspective and illustrates my passion for creative solutions to real world issues.
+
+    Contact me via LinkedIn or email if you have a project idea you would like to collaborate on together. benduffieldharding@gmail.com
     `}
                     </div>
                 </div>
             </div>
             <PageBreak />
-            <Marquee message="AGILE • FULL-STACK DEVELOPMENT • SOFTWARE DEVELOPMENT • " />
+            <Marquee message="3D DESIGN • FULL-STACK DEVELOPMENT • CREATIVE SOLUTIONS • " />
             <PageBreak />
         </div>
     );
