@@ -30,7 +30,7 @@ const IntroductionSection = () => {
                     </div>
                     <div className='about-text text-xl font-Arimo font-bold'>
                     {`
-    My background in nutrition and fitness, and passion for art and 3D creation gives me a unique perspective and illustrates my passion for creative solutions to real world issues.
+    My background in nutrition and fitness, and passion for art and 3D creation gives me a unique perspective when building projects that tackle real world issues.
 
     Contact me via LinkedIn or email if you have a project idea you would like to collaborate on together. benduffieldharding@gmail.com
     `}
