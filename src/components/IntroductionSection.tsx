@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'; // Import the necessary icons
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import Marquee from './Marquee';
 import PageBreak from './PageBreak';
@@ -15,7 +15,7 @@ const IntroductionSection = () => {
                     {`
     Creative and conscientious developer with a drive to create innovative tech that contributes to meaningful positive change.
 
-    Proficient in AWS, NextJS and TypeScript, I utilize Blender and ThreeJS to build visually stunning projects.
+    Proficient in AWS, NextJS and TypeScript, I utilize Blender, AdobeCS and ThreeJS to build visually stunning projects.
     `}
                     </div>
                 </div>
